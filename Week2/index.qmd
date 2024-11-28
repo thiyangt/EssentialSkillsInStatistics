@@ -21,3 +21,51 @@ format:
 
 # Question 1
 
+A company determines its earthquake insurance rates based on these assumptions:
+
+- At most one earthquake can occur in a calendar year.
+
+- The probability of an earthquake occurring in a given year is 0.05.
+
+- The occurrence of earthquakes in different years is independent.
+
+Using these assumptions, calculate the probability of experiencing fewer than three earthquakes over a 20-year period.
+
+# Question 2
+
+The number of earthquakes expected to impact a specific house over the next ten years follows a Poisson distribution with a mean of 4. Each earthquakes causes a financial loss that follows an exponential distribution with an average of $1000. 
+
+Losses are mutually independent and independent of the number of earthquakes.
+
+Calculate the variance of the total financial loss caused by earthquakes over the ten-year period.
+
+# Question 3
+
+In a study, individuals are tested for COVID-19, one at a time, until a person is found to be positive for the virus. Each patient independently has the same probability of having COVID-18. Let 
+$r$ represent the probability that at least four individuals are tested.
+
+Determine the probability that at least twelve individuals are tested, given that at least four individuals are tested.
+
+---
+
+### Question 4
+
+In a classroom of 25 students, 20 are undergraduates, and five are postgraduates.
+
+Two of the 25 students are randomly chosen without replacement.
+
+Calculate the probability that exactly one of the two selected students is an undergraduate.
+
+### Question 5
+
+In a classroom of 25 students, 20 are undergraduates, and five are postgraduates.
+
+Two of the 25 students are randomly chosen with replacement.
+
+Calculate the probability that exactly one of the two selected students is an undergraduate.
+
+## Question 6
+
+Let $X_1, X_2, ..., X_{100}$ be independent identically distributed random variables such that
+$P[X=0]=P[X=2]=0.5$. Let $T=X_1+X+2+...+X_{100}$.
+Calculate the approximate value of $P[T >115]$.

@@ -1,4 +1,3 @@
 ---
 title: "STA 315 2.0 Essential Skills in Statistics"
 ---
-

@@ -6,5 +6,6 @@ title: "STA 315 2.0 Essential Skills in Statistics"
 
 [Slides 1](https://thiyangt.github.io/ES1/#/title-slide)
 
-
 ## Lecture 2: 29 November 2024
+
+[Slides 2](/Week2/index.html)

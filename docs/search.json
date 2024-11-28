@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "Week2/index.html#question-6",
+    "href": "Week2/index.html#question-6",
+    "title": "STA 315 2.0 Essential Skills in Statistics",
+    "section": "Question 6",
+    "text": "Question 6\nLet \\(X_1, X_2, ..., X_{100}\\) be independent identically distributed random variables such that \\(P[X=0]=P[X=2]=0.5\\). Let \\(T=X_1+X+2+...+X_{100}\\). Calculate the approximate value of \\(P[T &gt;115]\\)."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "STA 315 2.0 Essential Skills in Statistics",
@@ -18,6 +25,6 @@
     "href": "index.html#lecture-2-29-november-2024",
     "title": "STA 315 2.0 Essential Skills in Statistics",
     "section": "Lecture 2: 29 November 2024",
-    "text": "Lecture 2: 29 November 2024"
+    "text": "Lecture 2: 29 November 2024\nSlides 2"
   }
 ]
