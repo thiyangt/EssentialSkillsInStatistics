@@ -1,3 +1,44 @@
 ---
 title: "STA 315 2.0 Essential Skills in Statistics"
 ---
+
+Code: CLT
+
+``` r
+# Set parameters for the simulation
+set.seed(123)  # For reproducibility
+n <- 1000      # Number of samples
+sample_size <- c(5, 30, 100)  # Different sample sizes
+num_simulations <- 1000  # Number of simulations (trials)
+
+# Generate a non-normal distribution (e.g., Uniform)
+population_dist <- runif(n * num_simulations, min = 0, max = 10)
+
+# Function to simulate and plot CLT demonstration
+plot_clt <- function(sample_size, population_dist) {
+  means <- numeric(num_simulations)
+  
+  for (i in 1:num_simulations) {
+    sample <- sample(population_dist, sample_size, replace = TRUE)
+    means[i] <- mean(sample)
+  }
+  
+  # Plot the distribution of sample means
+  hist(means, probability = TRUE, col = "lightblue", main = paste("Sample Size =", sample_size),
+       xlab = "Sample Means", xlim = c(min(means), max(means)))
+  # Overlay a normal distribution with the same mean and sd as the sample means
+  curve(dnorm(x, mean = mean(means), sd = sd(means)), col = "red", lwd = 2, add = TRUE)
+}
+
+# Plot the distributions of sample means for different sample sizes
+par(mfrow = c(1, 3))  # Arrange plots side by side
+for (size in sample_size) {
+  plot_clt(size, population_dist)
+}
+
+# Reset plotting layout
+par(mfrow = c(1, 1))
+
+
+```
+````

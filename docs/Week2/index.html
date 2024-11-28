@@ -321,6 +321,10 @@
       margin-right: 0; 
     }
   </style>
+  <link href="../site_libs/countdown-0.4.0/countdown.css" rel="stylesheet">
+
+  <script src="../site_libs/countdown-0.4.0/countdown.js"></script>
+
 </head>
 <body class="quarto-light">
   <div class="reveal">
@@ -347,6 +351,14 @@ Dr.&nbsp;Thiyanga S. Talagala <br> Department of Statistics, Faculty of Applied 
 <li><p>The occurrence of earthquakes in different years is independent.</p></li>
 </ul>
 <p>Using these assumptions, calculate the probability of experiencing fewer than three earthquakes over a 20-year period.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div class="countdown" id="timer_494d933a" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
+<div class="countdown-controls"><button class="countdown-bump-down">−</button><button class="countdown-bump-up">+</button></div>
+<code class="countdown-time"><span class="countdown-digits minutes">06</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
+</div>
+</div>
+</div>
 </section>
 
 <section id="question-2" class="title-slide slide level1 center">
@@ -354,6 +366,14 @@ Dr.&nbsp;Thiyanga S. Talagala <br> Department of Statistics, Faculty of Applied 
 <p>The number of earthquakes expected to impact a specific house over the next ten years follows a Poisson distribution with a mean of 4. Each earthquakes causes a financial loss that follows an exponential distribution with an average of $1000.</p>
 <p>Losses are mutually independent and independent of the number of earthquakes.</p>
 <p>Calculate the variance of the total financial loss caused by earthquakes over the ten-year period.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div class="countdown" id="timer_3c893b42" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
+<div class="countdown-controls"><button class="countdown-bump-down">−</button><button class="countdown-bump-up">+</button></div>
+<code class="countdown-time"><span class="countdown-digits minutes">06</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
+</div>
+</div>
+</div>
 </section>
 
 <section>
@@ -361,6 +381,14 @@ Dr.&nbsp;Thiyanga S. Talagala <br> Department of Statistics, Faculty of Applied 
 <h1>Question 3</h1>
 <p>In a study, individuals are tested for COVID-19, one at a time, until a person is found to be positive for the virus. Each patient independently has the same probability of having COVID-18. Let <span class="math inline">\(r\)</span> represent the probability that at least four individuals are tested.</p>
 <p>Determine the probability that at least twelve individuals are tested, given that at least four individuals are tested.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div class="countdown" id="timer_9dfee363" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
+<div class="countdown-controls"><button class="countdown-bump-down">−</button><button class="countdown-bump-up">+</button></div>
+<code class="countdown-time"><span class="countdown-digits minutes">06</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
+</div>
+</div>
+</div>
 </section>
 <section class="slide level2">
 
@@ -372,17 +400,37 @@ Dr.&nbsp;Thiyanga S. Talagala <br> Department of Statistics, Faculty of Applied 
 <p>In a classroom of 25 students, 20 are undergraduates, and five are postgraduates.</p>
 <p>Two of the 25 students are randomly chosen with replacement.</p>
 <p>Calculate the probability that exactly one of the two selected students is an undergraduate.</p>
-</section>
-<section id="question-6" class="slide level2">
-<h2>Question 6</h2>
+<div class="cell">
+<div class="cell-output-display">
+<div class="countdown" id="timer_1a918949" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
+<div class="countdown-controls"><button class="countdown-bump-down">−</button><button class="countdown-bump-up">+</button></div>
+<code class="countdown-time"><span class="countdown-digits minutes">10</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
+</div>
+</div>
+</div>
+</section></section>
+<section id="question-6" class="title-slide slide level1 center">
+<h1>Question 6</h1>
 <p>Let <span class="math inline">\(X_1, X_2, ..., X_{100}\)</span> be independent identically distributed random variables such that <span class="math inline">\(P[X=0]=P[X=2]=0.5\)</span>. Let <span class="math inline">\(T=X_1+X+2+...+X_{100}\)</span>. Calculate the approximate value of <span class="math inline">\(P[T &gt;115]\)</span>.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div class="countdown" id="timer_30bcb94a" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
+<div class="countdown-controls"><button class="countdown-bump-down">−</button><button class="countdown-bump-up">+</button></div>
+<code class="countdown-time"><span class="countdown-digits minutes">06</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
+</div>
+</div>
+</div>
+</section>
+
+<section id="question-7" class="title-slide slide level1 center">
+<h1>Question 7</h1>
 
 <div class="quarto-auto-generated-content">
 <div class="footer footer-default">
 
 </div>
 </div>
-</section></section>
+</section>
     </div>
   </div>
 
@@ -593,6 +641,82 @@ Dr.&nbsp;Thiyanga S. Talagala <br> Department of Statistics, Faculty of Applied 
         ]
       });
     </script>
+    
+
+    <script>
+
+      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+
+      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+
+      // slide changes (different for each slide format).
+
+      (function () {
+
+        // dispatch for htmlwidgets
+
+        function fireSlideEnter() {
+
+          const event = window.document.createEvent("Event");
+
+          event.initEvent("slideenter", true, true);
+
+          window.document.dispatchEvent(event);
+
+        }
+
+    
+
+        function fireSlideChanged(previousSlide, currentSlide) {
+
+          fireSlideEnter();
+
+    
+
+          // dispatch for shiny
+
+          if (window.jQuery) {
+
+            if (previousSlide) {
+
+              window.jQuery(previousSlide).trigger("hidden");
+
+            }
+
+            if (currentSlide) {
+
+              window.jQuery(currentSlide).trigger("shown");
+
+            }
+
+          }
+
+        }
+
+    
+
+        // hookup for slidy
+
+        if (window.w3c_slidy) {
+
+          window.w3c_slidy.add_observer(function (slide_num) {
+
+            // slide_num starts at position 1
+
+            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+
+          });
+
+        }
+
+    
+
+      })();
+
+    </script>
+
+    
+
     <script id="quarto-html-after-body" type="application/javascript">
     window.document.addEventListener("DOMContentLoaded", function (event) {
       const toggleBodyColorMode = (bsSheetEl) => {
