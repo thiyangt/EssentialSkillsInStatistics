@@ -4,14 +4,21 @@
     "href": "Week2/index.html#question-7",
     "title": "STA 315 2.0 Essential Skills in Statistics",
     "section": "Question 7",
-    "text": "Question 7\nFor a person with the disease, the test will give a “negative” result (disease not detected) with a probability of 0.10.\nFor a person without the disease, the test will give a “positive” result (incorrectly detecting the disease) with a probability of 0.20.\n20% of people being tested actually have the disease.\nWe want to calculate the probability that a person has the disease, given that their test result is “positive” (disease detected).\n\n\n\n−+\n06:00"
+    "text": "Question 7\nFor a person with the disease, the test will give a “negative” result (disease not detected) with a probability of 0.10.\nFor a person without the disease, the test will give a “positive” result (incorrectly detecting the disease) with a probability of 0.20.\n20% of people being tested actually have the disease.\nWe want to calculate the probability that a person has the disease, given that their test result is “positive” (disease detected).\n\n\n\n−+\n10:00"
   },
   {
     "objectID": "Week2/index.html#question-8",
     "href": "Week2/index.html#question-8",
     "title": "STA 315 2.0 Essential Skills in Statistics",
     "section": "Question 8",
-    "text": "Question 8\n\n\nA home owner purchases an insurance policy to offset costs associated with excessive amounts of flood. For every full 1 inches of flood in excess of 4 inches, the insurer pays the pwner Rs. 2000 up to a policy maximum of Rs. 5000. The following table shows a probability function for the random variable X of flood level, in inches, at the home.\nCalculate the standard deviation of the amount paid under the policy.\n\n\n\n−+\n06:00\n\n\n\n\n[\n\\[\\begin{array}{|c|c|}\n\\hline\n\\text{Inches of Rainfalll } (x) & p(x) \\\\\n\\hline\n0 \\leq x &lt; 2 & 0.06 \\\\\n2 \\leq x &lt; 3 & 0.18 \\\\\n3 \\leq x &lt; 4 & 0.26 \\\\\n4 \\leq x &lt; 5 & 0.22 \\\\\n5 \\leq x &lt; 6 & 0.14 \\\\\n6 \\leq x &lt; 7 & 0.06 \\\\\n7 \\leq x &lt; 8 & 0.04 \\\\\n8 \\leq x &lt; 9 & 0.04 \\\\\n9 \\leq x & 0.00 \\\\\n\\hline\n\\end{array}\\]\n]"
+    "text": "Question 8\n\n\nA home owner purchases an insurance policy to offset costs associated with excessive amounts of flood. For every full 1 inches of flood in excess of 4 inches, the insurer pays the pwner Rs. 2000 up to a policy maximum of Rs. 5000. The following table shows a probability function for the random variable X of flood level, in inches, at the home.\nCalculate the standard deviation of the amount paid under the policy.\n\n\n\n−+\n10:00\n\n\n\n\n[\n\\[\\begin{array}{|c|c|}\n\\hline\n\\text{Inches of Rainfalll } (x) & p(x) \\\\\n\\hline\n0 \\leq x &lt; 2 & 0.06 \\\\\n2 \\leq x &lt; 3 & 0.18 \\\\\n3 \\leq x &lt; 4 & 0.26 \\\\\n4 \\leq x &lt; 5 & 0.22 \\\\\n5 \\leq x &lt; 6 & 0.14 \\\\\n6 \\leq x &lt; 7 & 0.06 \\\\\n7 \\leq x &lt; 8 & 0.04 \\\\\n8 \\leq x &lt; 9 & 0.04 \\\\\n9 \\leq x & 0.00 \\\\\n\\hline\n\\end{array}\\]\n]"
+  },
+  {
+    "objectID": "Week2/index.html#question-9",
+    "href": "Week2/index.html#question-9",
+    "title": "STA 315 2.0 Essential Skills in Statistics",
+    "section": "Question 9",
+    "text": "Question 9\nThe monthly income that an sales agent earns is modeled by a random variable X with probability density function\n[in-class]\nCalculate the probability that the income the agent earns in a month is within 0.5 standard deviations of E(X).\n\n\n\n−+\n10:00"
   },
   {
     "objectID": "about.html",

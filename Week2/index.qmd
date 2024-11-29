@@ -34,7 +34,7 @@ Using these assumptions, calculate the probability of experiencing fewer than th
 ```{r}
 library(countdown)
 
-countdown(minutes = 6, seconds = 00)
+countdown(minutes = 10, seconds = 00)
 ```
 
 # Question 2
@@ -48,7 +48,7 @@ Calculate the variance of the total financial loss caused by earthquakes over th
 ```{r}
 library(countdown)
 
-countdown(minutes = 6, seconds = 00)
+countdown(minutes = 10, seconds = 00)
 ```
 
 # Question 3
@@ -60,7 +60,7 @@ Determine the probability that at least twelve individuals are tested, given tha
 ```{r}
 library(countdown)
 
-countdown(minutes = 6, seconds = 00)
+countdown(minutes = 10, seconds = 00)
 ```
 
 ------------------------------------------------------------------------
@@ -72,6 +72,13 @@ In a classroom of 25 students, 20 are undergraduates, and five are postgraduates
 Two of the 25 students are randomly chosen without replacement.
 
 Calculate the probability that exactly one of the two selected students is an undergraduate.
+
+```{r}
+library(countdown)
+
+countdown(minutes = 10, seconds = 00)
+```
+
 
 ### Question 5
 
@@ -94,7 +101,7 @@ Let $X_1, X_2, ..., X_{100}$ be independent identically distributed random varia
 ```{r}
 library(countdown)
 
-countdown(minutes = 6, seconds = 00)
+countdown(minutes = 10, seconds = 00)
 ```
 
 ## Question 7
@@ -110,7 +117,7 @@ We want to calculate the probability that a person has the disease, given that t
 ```{r}
 library(countdown)
 
-countdown(minutes = 6, seconds = 00)
+countdown(minutes = 10, seconds = 00)
 ```
 
 
@@ -127,7 +134,7 @@ Calculate the standard deviation of the amount paid under the policy.
 ```{r}
 library(countdown)
 
-countdown(minutes = 6, seconds = 00)
+countdown(minutes = 10, seconds = 00)
 ```
 
 
@@ -155,3 +162,19 @@ countdown(minutes = 6, seconds = 00)
 :::
 
 ::::
+
+## Question 9
+
+The monthly income that an sales agent earns is modeled by a random variable X with probability density function
+
+[in-class]
+
+Calculate the probability that the income the agent earns in a month is within 0.5 standard deviations of E(X).
+
+```{r}
+library(countdown)
+
+countdown(minutes = 10, seconds = 00)
+```
+
+
