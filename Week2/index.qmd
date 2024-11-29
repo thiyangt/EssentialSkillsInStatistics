@@ -23,11 +23,11 @@ format:
 
 A company determines its earthquake insurance rates based on these assumptions:
 
-- At most one earthquake can occur in a calendar year.
+-   At most one earthquake can occur in a calendar year.
 
-- The probability of an earthquake occurring in a given year is 0.05.
+-   The probability of an earthquake occurring in a given year is 0.05.
 
-- The occurrence of earthquakes in different years is independent.
+-   The occurrence of earthquakes in different years is independent.
 
 Using these assumptions, calculate the probability of experiencing fewer than three earthquakes over a 20-year period.
 
@@ -39,7 +39,7 @@ countdown(minutes = 6, seconds = 00)
 
 # Question 2
 
-The number of earthquakes expected to impact a specific house over the next ten years follows a Poisson distribution with a mean of 4. Each earthquakes causes a financial loss that follows an exponential distribution with an average of $1000. 
+The number of earthquakes expected to impact a specific house over the next ten years follows a Poisson distribution with a mean of 4. Each earthquakes causes a financial loss that follows an exponential distribution with an average of \$1000.
 
 Losses are mutually independent and independent of the number of earthquakes.
 
@@ -53,16 +53,17 @@ countdown(minutes = 6, seconds = 00)
 
 # Question 3
 
-In a study, individuals are tested for COVID-19, one at a time, until a person is found to be positive for the virus. Each patient independently has the same probability of having COVID-18. Let 
-$r$ represent the probability that at least four individuals are tested.
+In a study, individuals are tested for COVID-19, one at a time, until a person is found to be positive for the virus. Each patient independently has the same probability of having COVID-18. Let $r$ represent the probability that at least four individuals are tested.
 
 Determine the probability that at least twelve individuals are tested, given that at least four individuals are tested.
+
 ```{r}
 library(countdown)
 
 countdown(minutes = 6, seconds = 00)
 ```
----
+
+------------------------------------------------------------------------
 
 ### Question 4
 
@@ -88,9 +89,7 @@ countdown(minutes = 10, seconds = 00)
 
 # Question 6
 
-Let $X_1, X_2, ..., X_{100}$ be independent identically distributed random variables such that
-$P[X=0]=P[X=2]=0.5$. Let $T=X_1+X+2+...+X_{100}$.
-Calculate the approximate value of $P[T >115]$.
+Let $X_1, X_2, ..., X_{100}$ be independent identically distributed random variables such that $P[X=0]=P[X=2]=0.5$. Let $T=X_1+X+2+...+X_{100}$. Calculate the approximate value of $P[T >115]$.
 
 ```{r}
 library(countdown)
@@ -100,3 +99,59 @@ countdown(minutes = 6, seconds = 00)
 
 ## Question 7
 
+For a person with the disease, the test will give a "negative" result (disease not detected) with a probability of 0.10.
+
+For a person without the disease, the test will give a "positive" result (incorrectly detecting the disease) with a probability of 0.20.
+
+20% of people being tested actually have the disease.
+
+We want to calculate the probability that a person has the disease, given that their test result is "positive" (disease detected).
+
+```{r}
+library(countdown)
+
+countdown(minutes = 6, seconds = 00)
+```
+
+
+## Question 8
+
+:::: {.columns}
+
+::: {.column width="50%"}
+A home owner purchases an insurance policy to offset costs associated with excessive amounts of flood. For every full 1 inches of flood in excess of 4 inches, the insurer pays the pwner Rs. 2000 up to a policy maximum of Rs. 5000.
+The following table shows a probability function for the random variable X of flood level, in inches, at the home.
+
+Calculate the standard deviation of the amount paid under the policy.
+
+```{r}
+library(countdown)
+
+countdown(minutes = 6, seconds = 00)
+```
+
+
+:::
+
+::: {.column width="50%"}
+
+\[
+\begin{array}{|c|c|}
+\hline
+\text{Inches of Rainfalll } (x) & p(x) \\
+\hline
+0 \leq x < 2 & 0.06 \\
+2 \leq x < 3 & 0.18 \\
+3 \leq x < 4 & 0.26 \\
+4 \leq x < 5 & 0.22 \\
+5 \leq x < 6 & 0.14 \\
+6 \leq x < 7 & 0.06 \\
+7 \leq x < 8 & 0.04 \\
+8 \leq x < 9 & 0.04 \\
+9 \leq x & 0.00 \\
+\hline
+\end{array}
+\]
+:::
+
+::::
