@@ -39,6 +39,6 @@ for (size in sample_size) {
 # Reset plotting layout
 par(mfrow = c(1, 1))
 
-
 ```
-````
+
+\`\`\`\`

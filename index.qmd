@@ -9,3 +9,7 @@ title: "STA 315 2.0 Essential Skills in Statistics"
 ## Lecture 2: 29 November 2024
 
 [Slides 2](/Week2/index.html)
+
+## Lecture 3: 6  December 2024
+
+[Slides 3](https://thiyanga-scientificwriting.netlify.app/slides/1_thesiswriting/main#1)

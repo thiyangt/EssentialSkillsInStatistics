@@ -80,6 +80,11 @@ countdown(minutes = 10, seconds = 00)
 ```
 
 
+---
+## References
+
+- SOCIETY OF ACTUARIES
+
 ### Question 5
 
 In a classroom of 25 students, 20 are undergraduates, and five are postgraduates.
