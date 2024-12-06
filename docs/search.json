@@ -32,7 +32,7 @@
     "href": "about.html",
     "title": "STA 315 2.0 Essential Skills in Statistics",
     "section": "",
-    "text": "Code: CLT\n# Set parameters for the simulation\nset.seed(123)  # For reproducibility\nn &lt;- 1000      # Number of samples\nsample_size &lt;- c(5, 30, 100)  # Different sample sizes\nnum_simulations &lt;- 1000  # Number of simulations (trials)\n\n# Generate a non-normal distribution (e.g., Uniform)\npopulation_dist &lt;- runif(n * num_simulations, min = 0, max = 10)\n\n# Function to simulate and plot CLT demonstration\nplot_clt &lt;- function(sample_size, population_dist) {\n  means &lt;- numeric(num_simulations)\n  \n  for (i in 1:num_simulations) {\n    sample &lt;- sample(population_dist, sample_size, replace = TRUE)\n    means[i] &lt;- mean(sample)\n  }\n  \n  # Plot the distribution of sample means\n  hist(means, probability = TRUE, col = \"lightblue\", main = paste(\"Sample Size =\", sample_size),\n       xlab = \"Sample Means\", xlim = c(min(means), max(means)))\n  # Overlay a normal distribution with the same mean and sd as the sample means\n  curve(dnorm(x, mean = mean(means), sd = sd(means)), col = \"red\", lwd = 2, add = TRUE)\n}\n\n# Plot the distributions of sample means for different sample sizes\npar(mfrow = c(1, 3))  # Arrange plots side by side\nfor (size in sample_size) {\n  plot_clt(size, population_dist)\n}\n\n# Reset plotting layout\npar(mfrow = c(1, 1))\n\n````"
+    "text": "Code: CLT\n# Set parameters for the simulation\nset.seed(123)  # For reproducibility\nn &lt;- 1000      # Number of samples\nsample_size &lt;- c(5, 30, 100)  # Different sample sizes\nnum_simulations &lt;- 1000  # Number of simulations (trials)\n\n# Generate a non-normal distribution (e.g., Uniform)\npopulation_dist &lt;- runif(n * num_simulations, min = 0, max = 10)\n\n# Function to simulate and plot CLT demonstration\nplot_clt &lt;- function(sample_size, population_dist) {\n  means &lt;- numeric(num_simulations)\n  \n  for (i in 1:num_simulations) {\n    sample &lt;- sample(population_dist, sample_size, replace = TRUE)\n    means[i] &lt;- mean(sample)\n  }\n  \n  # Plot the distribution of sample means\n  hist(means, probability = TRUE, col = \"lightblue\", main = paste(\"Sample Size =\", sample_size),\n       xlab = \"Sample Means\", xlim = c(min(means), max(means)))\n  # Overlay a normal distribution with the same mean and sd as the sample means\n  curve(dnorm(x, mean = mean(means), sd = sd(means)), col = \"red\", lwd = 2, add = TRUE)\n}\n\n# Plot the distributions of sample means for different sample sizes\npar(mfrow = c(1, 3))  # Arrange plots side by side\nfor (size in sample_size) {\n  plot_clt(size, population_dist)\n}\n\n# Reset plotting layout\npar(mfrow = c(1, 1))\n````"
   },
   {
     "objectID": "index.html",
@@ -54,5 +54,12 @@
     "title": "STA 315 2.0 Essential Skills in Statistics",
     "section": "Lecture 2: 29 November 2024",
     "text": "Lecture 2: 29 November 2024\nSlides 2"
+  },
+  {
+    "objectID": "index.html#lecture-3-6-december-2024",
+    "href": "index.html#lecture-3-6-december-2024",
+    "title": "STA 315 2.0 Essential Skills in Statistics",
+    "section": "Lecture 3: 6 December 2024",
+    "text": "Lecture 3: 6 December 2024\nSlides 3"
   }
 ]
