@@ -1,0 +1,173 @@
+---
+title: "Time Series Analysis"
+subtitle: ""
+author: "Dr. Thiyanga S. Talagala <br/>  Department of Statistics, Faculty of Applied Sciences <br/> University of Sri Jayewardenepura, Sri Lanka"
+format:
+  revealjs:
+    css:
+        - "custom.css"
+    width: 1600
+    height: 900
+    margin: 0.1
+    theme: simple
+    transition: slide
+    background-transition: fade
+    slide-number: true
+    show-slide-number: all
+    title-slide-attributes: 
+      data-background-color: "#081d58"
+      data-background-image: none
+---
+
+### Looking at this plot, what are some ways to improve its clarity, aesthetics, or data presentation? Are there specific adjustments you would suggest to enhance its readability and ensure it effectively communicates the intended message?
+
+```{r, echo=FALSE, fig.width=15}
+library(denguedatahub)
+library(ggplot2)
+library(tsibble)
+library(tidyverse)
+data(srilanka_weekly_data)
+srilanka_weekly_data |>
+  filter(district == "Colombo") |>
+  ggplot(aes(x=start.date, y=cases)) + geom_line()  + ggtitle("Weekly Dengue Cases in Colombo District")
+```
+
+---
+
+
+
+```{r, echo=FALSE, fig.width=15}
+library(denguedatahub)
+library(ggplot2)
+library(tsibble)
+library(tidyverse)
+data(srilanka_weekly_data)
+srilanka_weekly_data |>
+  filter(district == "Colombo") |>
+  ggplot(aes(x=start.date, y=cases)) + geom_line() + scale_x_date(date_breaks = "1 year", date_labels = "%Y")+ xlab("Year") + ggtitle("Weekly Dengue Cases in Colombo District")
+```
+
+
+
+
+---
+
+### What insights can you derive from this chart? Interpret the key patterns, trends, and any notable observations it presents in relation to the data context.
+
+
+```{r, echo=FALSE, fig.width=15}
+library(denguedatahub)
+library(ggplot2)
+library(tsibble)
+library(tidyverse)
+data(srilanka_weekly_data)
+srilanka_weekly_data |>
+  filter(district == "Colombo") |>
+  ggplot(aes(x=start.date, y=cases)) + geom_line() + scale_x_date(date_breaks = "1 year", date_labels = "%Y")+ xlab("Year") + ggtitle("Weekly Dengue Cases in Colombo District")
+```
+
+
+---
+
+### What additional chart types or visualizations could be created to provide complementary insights or highlight different aspects of the dataset?
+
+
+```{r, echo=FALSE,  fig.width=20}
+library(denguedatahub)
+library(ggplot2)
+library(tsibble)
+library(tidyverse)
+data(srilanka_weekly_data)
+srilanka_weekly_data |>
+  filter(district == "Colombo") |>
+  ggplot(aes(x=start.date, y=cases)) + geom_line() + scale_x_date(date_breaks = "1 year", date_labels = "%Y")+ xlab("Year") + ggtitle("Weekly Dengue Cases in Colombo District")
+```
+
+---
+### What types of charts can be used for the visual representation of the correlation between a time series and its lagged values? 
+
+
+---
+
+
+## Interpret the plot
+
+```{r}
+library(fpp2)
+autoplot(a10) + ylab("$ million") + xlab("Year") +
+ggtitle("Antidiabetic drug sales")
+
+```
+
+---
+
+```{r}
+ggseasonplot(a10, year.labels=TRUE,year.labels.left=TRUE) +
+ylab("$ million") +
+ggtitle("Seasonal plot: antidiabetic drug sales")
+```
+
+
+---
+
+## ACF plot for the original series
+
+```{r}
+ggAcf(a10)
+```
+
+---
+
+## Draw the ACF plot of the following time series
+
+:::: {.columns}
+
+::: {.column width="50%"}
+```{r}
+beer <- window(ausbeer, start=1992)
+beer
+```
+:::
+
+::: {.column width="50%"}
+```{r}
+autoplot(beer) + geom_point()
+```
+:::
+
+::::
+
+---
+
+```{r}
+ggAcf(beer)
+```
+
+---
+
+## Simple forecasting methods
+
+- Average method
+
+- drift method
+
+- naive forecast
+
+- snaive forecast
+
+---
+
+## (S)ARIMA models
+
+- AR models
+
+- MA models
+
+- ARMA models
+
+- ARIMA models
+
+- SARIMA models
+
+---
+## What are the key steps involved in fitting an (S)ARIMA model to a time series data, and how do you evaluate the model's performance?models
