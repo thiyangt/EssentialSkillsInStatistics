@@ -2,6 +2,16 @@
 title: "STA 315 2.0 Essential Skills in Statistics"
 ---
 
+# Course Information
+
+To access important information regarding the unit, please go to the Google Classroom of the unit.
+
+# Course outline
+
+Avalilable in the Google Classroom
+
+# Lecture Schedule
+
 ## Lecture 1: 22 November 2024
 
 [Slides 1](https://thiyangt.github.io/ES1/#/title-slide)
@@ -17,3 +27,7 @@ title: "STA 315 2.0 Essential Skills in Statistics"
 ## Lecture 4: 13 December 2024
 
 [Slides 4](/Week4/index.html)
+
+Data: Access the dataset named `srilanka_weekly_data` using the app provided below.
+
+[https://denguedatahub.shinyapps.io/denguedatahub/](https://denguedatahub.shinyapps.io/denguedatahub/)
