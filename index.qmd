@@ -30,4 +30,12 @@ Avalilable in the Google Classroom
 
 Data: Access the dataset named `srilanka_weekly_data` using the app provided below.
 
-[https://denguedatahub.shinyapps.io/denguedatahub/](https://denguedatahub.shinyapps.io/denguedatahub/)
+<https://denguedatahub.shinyapps.io/denguedatahub/>
+
+Assignment 1: denguedata visualisations
+
+## Lecture 5: 20 December 2024
+
+[Slides 5](/Week5/index.html)
+
+Assignment 1 - Feedback - [Students' Answers](/Feedback/f1.pdf)
