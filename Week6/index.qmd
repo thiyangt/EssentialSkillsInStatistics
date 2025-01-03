@@ -226,3 +226,17 @@ geom_point(data=df2, aes(x=x, y=y), colour="red", size=3)
 
 
 # Dashboard: https://statisticsmart.shinyapps.io/SimpleLinearRegression/
+
+# Different types of regression models
+
+1. Linear Regression
+
+2. Quantile Regression
+
+3. Piece-wise (Segmented) Regression
+
+4. LOESS (Locally Estimated Scatterplot Smoothing)
+
+5. Hodrick-Prescott (HP) Filter
+
+6. Multivariate Regression
