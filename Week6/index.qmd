@@ -1,0 +1,228 @@
+---
+title: "Linear Regression Analysis"
+subtitle: ""
+author: "Dr. Thiyanga S. Talagala <br/>  Department of Statistics, Faculty of Applied Sciences <br/> University of Sri Jayewardenepura, Sri Lanka"
+format:
+  revealjs:
+    css:
+        - "custom.css"
+    width: 1600
+    height: 900
+    margin: 0.1
+    theme: simple
+    transition: slide
+    background-transition: fade
+    slide-number: true
+    show-slide-number: all
+    title-slide-attributes: 
+      data-background-color: "#081d58"
+      data-background-image: none
+---
+
+### What is Regression Analysis?
+
+- Statistical technique for investigating and modelling the relationship between variables.
+
+### Statistical Modelling
+
+- a simplified, mathematically-formalized way to approximate reality (i.e. what generates your data) and optionally to make predictions from this approximation.
+
+#
+
+- Regression Analysis involves curve fitting.
+
+- **Curve fitting:** The process of finding a relation or equation of **best fit**.
+
+#
+
+
+# Model
+
+<!--https://www2.stat.duke.edu/courses/Spring19/sta210.001/slides/lec-slides/01-regression-intro.html#18-->
+
+$$Y = f(x_1, x_2, x_3) + \epsilon$$
+
+> Goal: Estimate $f$ ?
+
+## How do we estimate $f$?
+
+### Non-parametric methods:
+
+estimate $f$ using observed data without making explicit assumptions about the functional form of $f$.
+
+### Parametric methods
+
+estimate $f$ using observed data by making assumptions about the functional form of $f$.
+
+Ex: $Y = \beta_0 + \beta_1x_1 + \beta_2x_2 + \beta_3x_3 + \epsilon$
+
+---
+background-image: url('regressionpaper1.png')
+background-position: center
+background-size: contain
+
+---
+background-image: url('regressionpaper2.png')
+background-position: center
+background-size: contain
+
+     
+---
+background-image: url('regressionpaper3.png')
+background-position: center
+background-size: contain
+
+
+---
+
+## Do not under-estimate the power of simple models.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1zX6diCwlZA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<!--https://www.linkedin.com/feed/update/urn:li:activity:6489030516644380672/-->
+
+#
+
+
+# Create something new which is more efficient than the existing method.
+
+
+
+# Pearson's Correlation Coefficient
+
+- Measures the strength of the linear relationship between two quantitative variables. 
+
+- returns a value of between -1 and +1. A -1 means there is a strong negative correlation and +1 means that there is a strong positive correlation. 
+
+
+- Does not completely characterize their relationship.
+
+- is very sensitive to outliers.
+
+# Variance and Standard Deviations
+
+$$ \sigma^2 = \frac{\sum_{i=1}^N (x_i-\mu_x)^2}{N} $$
+
+$$ \sigma = \sqrt\frac{\sum_{i=1}^N (x_i-\mu_x)^2}{N} $$
+
+
+
+# Covariance
+
+
+$$ cov(x,y) = \frac{\sum_{i=1}^N (x_i-\mu_x)(y_i-\mu_y)}{N} $$
+
+Your turn: Create a geometrical demonstration
+
+
+# Terminologies
+
+
+- Response variable: dependent variable
+
+- Explanatory variables: independent variables, predictors, regressor variables, features (in Machine Learning)
+
+
+# Simple Linear Regression
+
+**Simple** - single regressor
+
+**Linear** -  parameters enter in a linear fashion.
+
+
+
+#
+
+| What about this?
+
+$$Y =  \beta_0 + \beta_1x_1 + \beta_{2}x_2 + \epsilon$$
+
+-
+
+| Linear or nonlinear?
+
+ $$Y = \beta_0 + \beta_1x + \beta_{2}x^2 + \epsilon$$
+<!--While the independent variable is squared, the model is still linear in the parameters. Linear models can also contain log terms and inverse terms to follow different kinds of curves and yet continue to be linear in the parameters.-->
+
+
+| Linear or nonlinear?
+
+$$Y = \beta_0e^{\beta_1x} + \epsilon$$
+
+#
+
+What about this?
+
+$$Y = \alpha X_1^\beta X_2^\gamma X_3^\delta e^\epsilon$$
+
+
+#
+
+**True relationship between X and Y in the population**
+
+$$Y = f(X) + \epsilon$$
+
+**If $f$ is approximated by a linear function**
+
+$$Y = \beta_0 + \beta_1X + \epsilon$$
+
+The error terms are normally distributed with mean $0$ and variance $\sigma^2$. Then the mean response, $Y$, at any value of the $X$ is 
+
+$$E(Y|X=x_i) = E(\beta_0 + \beta_1x_i + \epsilon)=\beta_0+\beta_1x_i$$
+
+For a single unit $(y_i, x_i)$
+
+$$y_i = \beta_0 + \beta_1x_i+\epsilon_i \text{  where  } \epsilon_i \sim N(0, \sigma^2)$$
+
+We use sample values $(y_i, x_i)$ where $i=1, 2, ...n$ to estimate $\beta_0$ and $\beta_1$.
+
+The fitted regression model is 
+
+$$\hat{Y_i} = \hat{\beta}_0 + \hat{\beta}_1x_i$$
+
+#
+
+
+```{r, comment=NA, message=FALSE, warning=FALSE, echo=FALSE}
+library(ggplot2)
+set.seed(123)
+x <- rep(1:5, each=10)
+y <- 10 * x + 20 + rnorm(50, sd=10)
+df <- data.frame(x=x, y=y)
+y2 <- 10*1:5 + 20
+df2 <- data.frame(x=1:5, y=y2)
+ggplot(df, aes(x=x, y=y)) + geom_point()
+```
+
+# Population Regression
+
+$$E(Y|X=x_i) = \beta_0+\beta_1x_i$$
+
+```{r, comment=NA, message=FALSE, warning=FALSE, echo=FALSE}
+ggplot(df, aes(x=x, y=y)) + geom_point() +
+geom_point(data=df2, aes(x=x, y=y), colour="red", size=3) +
+  geom_line(data=df2, aes(x=x, y=y), colour="orange", size=2)
+```
+
+
+
+# Population mean
+
+```{r, comment=NA, message=FALSE, warning=FALSE, echo=FALSE}
+ggplot(df, aes(x=x, y=y)) + geom_point() +
+geom_point(data=df2, aes(x=x, y=y), colour="red", size=3)
+```
+
+
+
+
+# Population mean (red) and sample mean (green)
+
+```{r, comment=NA, message=FALSE, warning=FALSE, echo=FALSE}
+ggplot(df, aes(x=x, y=y)) + geom_point() + stat_summary(fun.y=mean, geom="point", col="green", size=5) + 
+geom_point(data=df2, aes(x=x, y=y), colour="red", size=3)  
+```
+
+
+
+# Dashboard: https://statisticsmart.shinyapps.io/SimpleLinearRegression/
