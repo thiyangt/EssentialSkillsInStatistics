@@ -40,12 +40,14 @@ Assignment 1: denguedata visualisations
 
 Assignment 1 - Feedback - [Students' Answers](/Feedback/f1.pdf)
 
-## Lecture 6: 3 December 2024
+## Lecture 6: 3 January 2025
 
 [Slides 6](/Week6/index.html)
 
-## Lecture 7: 10 December 2024
+## Lecture 7: 10 January 2025
 
-## Lecture 8: 17 December 2024
+[In-class discussion problems](/Week7/2024_ES.pdf)
+
+## Lecture 8: 17 January 2025
 
 Mid-semester Examination (Lecture 1- Lecture 6)
