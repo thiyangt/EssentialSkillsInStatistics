@@ -43,16 +43,131 @@ A researcher claims that the average monthly expenditure of female students is h
 
 ## Question 2
 
-A wildlife researcher claims that the average height of one-week-old male elephants is higher than that of one-week-old female elephants at an orphanage. The researcher collected data from thirty one-week-old male elephants and thirty one-week-old female elephants in order to test this claim. 
+A wildlife researcher claims that the average height of one-week-old male elephants is greater than 2.0 meters. The researcher collects data from a sample of 30 male elephants. The sample has a mean height of 2.1 meters and a standard deviation of 0.5 meters. Test this claim at the 0.05 significance level.
 
-1. Write the null hypothesis and alternative hypothesis for this situation.
+1.  Write the null hypothesis and alternative hypothesis for this situation.
 
-##
+## 
 
 **Null Hypothesis (H0):** This is the statement you're initially assuming to be true. It often represents no effect, no difference, or no relationship.
 
 **Alternative Hypothesis (H1 or Ha):** This is the statement you're trying to find evidence for. It contradicts the null hypothesis.
 
+# How did authors of statistical hypothesis tests come up with their test statistics?
+
+> Design a test statistics from scratch
+
+<!--https://stats.stackexchange.com/questions/250936/general-guidelines-on-how-to-derive-a-hypothesis-statistical-test-->
+
+<!--https://phoonhout.netlify.app/teaching/statistics2/06_hypothesis_testing/#the-significance-level-and-the-power-function-of-a-statistical-test-->
+
+## Common methods
+
+1.  Likelihood ratio method
+
+2.  Method of moments
+
+3.  Score (Lagrange multiplier)
+
+4.  Ward test
+
+5.  Bayesian methods
+
+6.  Permutation and resampling methods
+
+7.  Maximum likelihood estimation
+
+8.  Method of least squares
+
+## Key Requirements
+
+-   Test statistics are calculated from the sample data.
+
+-   We should be able to derive its probability distribution under the null hypothesis (exactly or approximately).
+
+## In this example out test statisic is
+
+$$T = \frac{\bar{X}-\mu}{s/\sqrt{n}}$$
+
+## Understanding the decision making process in hypothesis testing
+
+We look at the distribution of the test statistic under the null hypothesis to understand how the test statistic behaves when the null hypothesis is true.
+
+$$T = \frac{\bar{X}-1}{s/\sqrt{n}} \sim t_{n-1}$$
+
+## Errors in Hypothesis Testing
+
+-   The Type I error is the probability of rejecting the null hypothesis when it is actually true.
+
+$$\alpha = 𝑃(\text{Reject } H_0|H_0 \text{ is true})$$
+
+-   Type II error is the probability of failing to reject the null hypothesis when the alternative hypothesis is actually true.
+
+$$\beta = 𝑃(\text{Falling to Reject } H_0|H_0 \text{ is false})$$
+
+This is very similar to
+
+• False negative test = type I error
+
+• False positive test = type II error
+
+## Significance level
+
+$$\alpha = 𝑃(\text{Reject } H_0|H_0 \text{ is true})$$
+
+The more serious the type I error, the smaller the significance level should be.
+
+## Power
+
+$$\text{Power} = 1-\beta$$
+
+The power of a test is the probability of rejecting the null hypothesis when it is false; in other words, it is the probability of avoiding a type II error.
+
+# No rejection region that will simultaneously make both $\alpha$ and $\beta$ small.
+
+
+
+
+# Factors that impact power
+
+1. Sample size
+
+2. Effect size:  Effect size quantifies the magnitude of the difference between the null hypothesis and the true value.
+
+$\frac{\mu - \mu_0}{\sigma}$
+
+3. Significance level
+
+4. Variance
+
+5. One-tailed vs Two-tailed
+
+## TRUE or FASLE
+
+Power increases when:
+
+  $n$ increases.
+
+  $d$ (effect size) increases.
+
+  Variance  decreases.
+
+  $\alpha$ increases.
+  
+  A one-tailed test is appropriate.
+  
+## Question 2: Solution - inclass discussion
+
+##
+
+
+- If the null hypothesis is not rejected, we do not accept the alternative: we do not have enough evidence to conclude that the alternative hypothesis is true. This does not mean that the null hypothesis is true; it simply indicates that the sample data does not provide strong enough evidence against it at the chosen significance level.
+
+- In other words, the null hypothesis represents what we assume to be true unless there is strong evidence to suggest otherwise.
+
+## Question 3
+
+A wildlife researcher claims that the average height of one-week-old male elephants is higher than that of one-week-old female elephants at an orphanage. The researcher collected data from thirty one-week-old male elephants and thirty one-week-old female elephants in order to test this claim.
 
 ## Data set
 
@@ -74,6 +189,45 @@ df |> pivot_longer(1:2, names_to = "gender",
   geom_point(size=2, alpha=0.5) 
 ```
 
-# Suggest alternative chart types for visualizing data that can be easily sketched by hand using a pencil or pen
+# Suggest alternative chart types for visualizing data that can be easily sketched by hand using a pencil or pen.
 
-# 
+# Solution - In class discussion
+
+## Question 4
+
+As reported by a NEWS channel, the mean serum high density (HDL) cholesterol
+of female 20 - 29 years old is 53. A doctor claims that the HDL Cholesterol level of female 20 - 29 years
+old is greater than 53. He uses the following data, randomly gathered from 22 individuals.
+
+65, 47, 51, 54, 70, 55, 44, 48, 36, 53, 45, 34, 59, 45, 54, 50, 40, 60, 53, 53, 54, 55
+
+It is known from past research that the distribution of the HDL cholesterol is normally distributed and the
+corresponding population variance is 81. Test the claim that the HDL level is greater than 53 at $\alpha$ = 0.01
+level of significance.
+
+## Question 5
+
+A chemist wants to measure the bias in a pH meter. She uses the meter to measure the pH in 14 neutral
+substances (pH=7) and obtains the data below.
+
+ 7.01, 7.04, 6.97, 7.00, 6.99, 6.97, 7.04, 7.04, 7.01, 7.00, 6.99, 7.04, 7.07, 6.97
+ 
+Is there sufficient evidence to support the claim that the pH meter is not correctly calibrated at the α = 0.05
+level of significance?
+
+## Question 6
+
+A dietician hopes to reduce a person’s cholesterol level by using a special diet supplemented with a combination
+of vitamin pills. Twenty (20) subjects were pre-tested and then placed on diet for two weeks. Their cholesterol
+levels were checked after the two week period. The results are shown below. Cholesterol levels are measured
+in milligrams per decilitre.
+
+before: 210, 235, 208, 190, 172, 244, 211, 235, 210,
+190, 175, 250, 200, 270, 222, 203, 209, 220, 250, 280)
+
+after: 190, 170, 210, 188, 173, 195, 228, 200, 210, 184,
+196, 208, 211, 212, 205, 221, 240, 250, 230, 220
+
+
+Test the claim that the Cholesterol level before the special diet is greater than the Cholesterol level
+after the special diet at α = 0.01 level of significance.

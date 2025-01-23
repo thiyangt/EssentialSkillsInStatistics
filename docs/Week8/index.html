@@ -371,7 +371,7 @@ Dr.&nbsp;Thiyanga S. Talagala <br> Department of Statistics, Faculty of Applied 
 </section>
 <section id="question-2" class="slide level2">
 <h2>Question 2</h2>
-<p>A wildlife researcher claims that the average height of one-week-old male elephants is higher than that of one-week-old female elephants at an orphanage. The researcher collected data from thirty one-week-old male elephants and thirty one-week-old female elephants in order to test this claim.</p>
+<p>A wildlife researcher claims that the average height of one-week-old male elephants is greater than 2.0 meters. The researcher collects data from a sample of 30 male elephants. The sample has a mean height of 2.1 meters and a standard deviation of 0.5 meters. Test this claim at the 0.05 significance level.</p>
 <ol type="1">
 <li>Write the null hypothesis and alternative hypothesis for this situation.</li>
 </ol>
@@ -380,6 +380,110 @@ Dr.&nbsp;Thiyanga S. Talagala <br> Department of Statistics, Faculty of Applied 
 <h2></h2>
 <p><strong>Null Hypothesis (H0):</strong> This is the statement you’re initially assuming to be true. It often represents no effect, no difference, or no relationship.</p>
 <p><strong>Alternative Hypothesis (H1 or Ha):</strong> This is the statement you’re trying to find evidence for. It contradicts the null hypothesis.</p>
+</section></section>
+<section>
+<section id="how-did-authors-of-statistical-hypothesis-tests-come-up-with-their-test-statistics" class="title-slide slide level1 center">
+<h1>How did authors of statistical hypothesis tests come up with their test statistics?</h1>
+<blockquote>
+<p>Design a test statistics from scratch</p>
+</blockquote>
+<!--https://stats.stackexchange.com/questions/250936/general-guidelines-on-how-to-derive-a-hypothesis-statistical-test-->
+<!--https://phoonhout.netlify.app/teaching/statistics2/06_hypothesis_testing/#the-significance-level-and-the-power-function-of-a-statistical-test-->
+</section>
+<section id="common-methods" class="slide level2">
+<h2>Common methods</h2>
+<ol type="1">
+<li><p>Likelihood ratio method</p></li>
+<li><p>Method of moments</p></li>
+<li><p>Score (Lagrange multiplier)</p></li>
+<li><p>Ward test</p></li>
+<li><p>Bayesian methods</p></li>
+<li><p>Permutation and resampling methods</p></li>
+<li><p>Maximum likelihood estimation</p></li>
+<li><p>Method of least squares</p></li>
+</ol>
+</section>
+<section id="key-requirements" class="slide level2">
+<h2>Key Requirements</h2>
+<ul>
+<li><p>Test statistics are calculated from the sample data.</p></li>
+<li><p>We should be able to derive its probability distribution under the null hypothesis (exactly or approximately).</p></li>
+</ul>
+</section>
+<section id="in-this-example-out-test-statisic-is" class="slide level2">
+<h2>In this example out test statisic is</h2>
+<p><span class="math display">\[T = \frac{\bar{X}-\mu}{s/\sqrt{n}}\]</span></p>
+</section>
+<section id="understanding-the-decision-making-process-in-hypothesis-testing" class="slide level2">
+<h2>Understanding the decision making process in hypothesis testing</h2>
+<p>We look at the distribution of the test statistic under the null hypothesis to understand how the test statistic behaves when the null hypothesis is true.</p>
+<p><span class="math display">\[T = \frac{\bar{X}-1}{s/\sqrt{n}} \sim t_{n-1}\]</span></p>
+</section>
+<section id="errors-in-hypothesis-testing" class="slide level2">
+<h2>Errors in Hypothesis Testing</h2>
+<ul>
+<li>The Type I error is the probability of rejecting the null hypothesis when it is actually true.</li>
+</ul>
+<p><span class="math display">\[\alpha = 𝑃(\text{Reject } H_0|H_0 \text{ is true})\]</span></p>
+<ul>
+<li>Type II error is the probability of failing to reject the null hypothesis when the alternative hypothesis is actually true.</li>
+</ul>
+<p><span class="math display">\[\beta = 𝑃(\text{Falling to Reject } H_0|H_0 \text{ is false})\]</span></p>
+<p>This is very similar to</p>
+<p>• False negative test = type I error</p>
+<p>• False positive test = type II error</p>
+</section>
+<section id="significance-level" class="slide level2">
+<h2>Significance level</h2>
+<p><span class="math display">\[\alpha = 𝑃(\text{Reject } H_0|H_0 \text{ is true})\]</span></p>
+<p>The more serious the type I error, the smaller the significance level should be.</p>
+</section>
+<section id="power" class="slide level2">
+<h2>Power</h2>
+<p><span class="math display">\[\text{Power} = 1-\beta\]</span></p>
+<p>The power of a test is the probability of rejecting the null hypothesis when it is false; in other words, it is the probability of avoiding a type II error.</p>
+</section></section>
+<section id="no-rejection-region-that-will-simultaneously-make-both-alpha-and-beta-small." class="title-slide slide level1 center">
+<h1>No rejection region that will simultaneously make both <span class="math inline">\(\alpha\)</span> and <span class="math inline">\(\beta\)</span> small.</h1>
+
+</section>
+
+<section>
+<section id="factors-that-impact-power" class="title-slide slide level1 center">
+<h1>Factors that impact power</h1>
+<ol type="1">
+<li><p>Sample size</p></li>
+<li><p>Effect size: Effect size quantifies the magnitude of the difference between the null hypothesis and the true value.</p></li>
+</ol>
+<p><span class="math inline">\(\frac{\mu - \mu_0}{\sigma}\)</span></p>
+<ol start="3" type="1">
+<li><p>Significance level</p></li>
+<li><p>Variance</p></li>
+<li><p>One-tailed vs Two-tailed</p></li>
+</ol>
+</section>
+<section id="true-or-fasle" class="slide level2">
+<h2>TRUE or FASLE</h2>
+<p>Power increases when:</p>
+<p><span class="math inline">\(n\)</span> increases.</p>
+<p><span class="math inline">\(d\)</span> (effect size) increases.</p>
+<p>Variance decreases.</p>
+<p><span class="math inline">\(\alpha\)</span> increases.</p>
+<p>A one-tailed test is appropriate.</p>
+</section>
+<section id="question-2-solution---inclass-discussion" class="slide level2">
+<h2>Question 2: Solution - inclass discussion</h2>
+</section>
+<section id="section-1" class="slide level2">
+<h2></h2>
+<ul>
+<li><p>If the null hypothesis is not rejected, we do not accept the alternative: we do not have enough evidence to conclude that the alternative hypothesis is true. This does not mean that the null hypothesis is true; it simply indicates that the sample data does not provide strong enough evidence against it at the chosen significance level.</p></li>
+<li><p>In other words, the null hypothesis represents what we assume to be true unless there is strong evidence to suggest otherwise.</p></li>
+</ul>
+</section>
+<section id="question-3" class="slide level2">
+<h2>Question 3</h2>
+<p>A wildlife researcher claims that the average height of one-week-old male elephants is higher than that of one-week-old female elephants at an orphanage. The researcher collected data from thirty one-week-old male elephants and thirty one-week-old female elephants in order to test this claim.</p>
 </section>
 <section id="data-set" class="slide level2">
 <h2>Data set</h2>
@@ -496,20 +600,41 @@ Dr.&nbsp;Thiyanga S. Talagala <br> Department of Statistics, Faculty of Applied 
 
 </div>
 <img data-src="index_files/figure-revealjs/unnamed-chunk-1-1.png" width="960" class="r-stretch"></section></section>
-<section id="suggest-alternative-chart-types-for-visualizing-data-that-can-be-easily-sketched-by-hand-using-a-pencil-or-pen" class="title-slide slide level1 center">
-<h1>Suggest alternative chart types for visualizing data that can be easily sketched by hand using a pencil or pen</h1>
+<section id="suggest-alternative-chart-types-for-visualizing-data-that-can-be-easily-sketched-by-hand-using-a-pencil-or-pen." class="title-slide slide level1 center">
+<h1>Suggest alternative chart types for visualizing data that can be easily sketched by hand using a pencil or pen.</h1>
 
 </section>
 
-<section id="section-1" class="title-slide slide level1 center">
-<h1></h1>
+<section>
+<section id="solution---in-class-discussion" class="title-slide slide level1 center">
+<h1>Solution - In class discussion</h1>
+
+</section>
+<section id="question-4" class="slide level2">
+<h2>Question 4</h2>
+<p>As reported by a NEWS channel, the mean serum high density (HDL) cholesterol of female 20 - 29 years old is 53. A doctor claims that the HDL Cholesterol level of female 20 - 29 years old is greater than 53. He uses the following data, randomly gathered from 22 individuals.</p>
+<p>65, 47, 51, 54, 70, 55, 44, 48, 36, 53, 45, 34, 59, 45, 54, 50, 40, 60, 53, 53, 54, 55</p>
+<p>It is known from past research that the distribution of the HDL cholesterol is normally distributed and the corresponding population variance is 81. Test the claim that the HDL level is greater than 53 at <span class="math inline">\(\alpha\)</span> = 0.01 level of significance.</p>
+</section>
+<section id="question-5" class="slide level2">
+<h2>Question 5</h2>
+<p>A chemist wants to measure the bias in a pH meter. She uses the meter to measure the pH in 14 neutral substances (pH=7) and obtains the data below.</p>
+<p>7.01, 7.04, 6.97, 7.00, 6.99, 6.97, 7.04, 7.04, 7.01, 7.00, 6.99, 7.04, 7.07, 6.97</p>
+<p>Is there sufficient evidence to support the claim that the pH meter is not correctly calibrated at the α = 0.05 level of significance?</p>
+</section>
+<section id="question-6" class="slide level2">
+<h2>Question 6</h2>
+<p>A dietician hopes to reduce a person’s cholesterol level by using a special diet supplemented with a combination of vitamin pills. Twenty (20) subjects were pre-tested and then placed on diet for two weeks. Their cholesterol levels were checked after the two week period. The results are shown below. Cholesterol levels are measured in milligrams per decilitre.</p>
+<p>before: 210, 235, 208, 190, 172, 244, 211, 235, 210, 190, 175, 250, 200, 270, 222, 203, 209, 220, 250, 280)</p>
+<p>after: 190, 170, 210, 188, 173, 195, 228, 200, 210, 184, 196, 208, 211, 212, 205, 221, 240, 250, 230, 220</p>
+<p>Test the claim that the Cholesterol level before the special diet is greater than the Cholesterol level after the special diet at α = 0.01 level of significance.</p>
 
 <div class="quarto-auto-generated-content">
 <div class="footer footer-default">
 
 </div>
 </div>
-</section>
+</section></section>
     </div>
   </div>
 
