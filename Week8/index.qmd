@@ -23,24 +23,57 @@ format:
 
 In statistics, a hypothesis is a formal statement or claim about a population parameter (like a mean, proportion, or variance) or the relationship between variables that can be tested using statistical methods.
 
-## Question
+## Question 1
 
 A researcher claims that the average monthly expenditure of female students is higher than that of male students at the University of Sri Jayewardenepura during the month of April. To evaluate this claim, he gathers expenditure data from all the students at the university for the month of April. How should he proceed to test the claim?
 
-
 ## Why Hypothesis Testing is Usually Not Needed with Population Data?
 
-- Population Parameters are Known: With complete population data, you can calculate the exact values (e.g., population mean, standard deviation) instead of estimating them from a sample.
+-   Population Parameters are Known: With complete population data, you can calculate the exact values (e.g., population mean, standard deviation) instead of estimating them from a sample.
 
-- No Uncertainty: Hypothesis testing is used to manage uncertainty and variability introduced by sampling. With population data, there is no sampling uncertainty to account for.
-
+-   No Uncertainty: Hypothesis testing is used to manage uncertainty and variability introduced by sampling. With population data, there is no sampling uncertainty to account for.
 
 ## Purpose of Hypothesis Testing
 
+-   Hypothesis testing is specifically designed for making inferences about a population based on sample data.
 
-- Hypothesis testing is specifically designed for making inferences about a population based on sample data.
+-   The goal of hypothesis testing is to use sample data to determine whether there is enough evidence to reject the null hypothesis in favor of the alternative hypothesis, while controlling for error.
+
+# Tests of Hypotheses
+
+## Question 2
+
+A wildlife researcher claims that the average height of one-week-old male elephants is higher than that of one-week-old female elephants at an orphanage. The researcher collected data from thirty one-week-old male elephants and thirty one-week-old female elephants in order to test this claim. 
+
+1. Write the null hypothesis and alternative hypothesis for this situation.
+
+##
+
+**Null Hypothesis (H0):** This is the statement you're initially assuming to be true. It often represents no effect, no difference, or no relationship.
+
+**Alternative Hypothesis (H1 or Ha):** This is the statement you're trying to find evidence for. It contradicts the null hypothesis.
 
 
-- The goal of hypothesis testing is to use sample data to determine whether there is enough evidence to reject the null hypothesis in favor of the alternative hypothesis, while controlling for error.
+## Data set
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+library(tidyverse)
+library(kableExtra)
+set.seed(123)
+male <- abs(round(rnorm(30, mean=2, sd=0.5),1))
+female <- abs(round(rnorm(30, mean=1.5, sd=1), 2))
+df <- data.frame(male, female)
+library(knitr)
+library(kableExtra)
+as.data.frame(t(df)) |> kable(col.names = NULL) |> kable_styling(font_size = 16)
 
 
+df |> pivot_longer(1:2, names_to = "gender",
+                   values_to = "height") |>
+  ggplot(aes(x=gender, y=height, col=gender)) + 
+  geom_point(size=2, alpha=0.5) 
+```
+
+# Suggest alternative chart types for visualizing data that can be easily sketched by hand using a pencil or pen
+
+# 

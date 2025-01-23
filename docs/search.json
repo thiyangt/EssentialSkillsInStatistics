@@ -418,5 +418,33 @@
     "title": "Hypothesis Testing",
     "section": "Why Hypothesis Testing is Usually Not Needed with Population Data?",
     "text": "Why Hypothesis Testing is Usually Not Needed with Population Data?\n\nPopulation Parameters are Known: With complete population data, you can calculate the exact values (e.g., population mean, standard deviation) instead of estimating them from a sample.\nNo Uncertainty: Hypothesis testing is used to manage uncertainty and variability introduced by sampling. With population data, there is no sampling uncertainty to account for."
+  },
+  {
+    "objectID": "Week8/index.html#question-1",
+    "href": "Week8/index.html#question-1",
+    "title": "Hypothesis Testing",
+    "section": "Question 1",
+    "text": "Question 1\nA researcher claims that the average monthly expenditure of female students is higher than that of male students at the University of Sri Jayewardenepura during the month of April. To evaluate this claim, he gathers expenditure data from all the students at the university for the month of April. How should he proceed to test the claim?"
+  },
+  {
+    "objectID": "Week8/index.html#question-2",
+    "href": "Week8/index.html#question-2",
+    "title": "Hypothesis Testing",
+    "section": "Question 2",
+    "text": "Question 2\nA wildlife researcher claims that the average height of one-week-old male elephants is higher than that of one-week-old female elephants at an orphanage. The researcher collected data from thirty one-week-old male elephants and thirty one-week-old female elephants in order to test this claim.\n\nWrite the null hypothesis and alternative hypothesis for this situation."
+  },
+  {
+    "objectID": "Week8/index.html#data-set",
+    "href": "Week8/index.html#data-set",
+    "title": "Hypothesis Testing",
+    "section": "Data set",
+    "text": "Data set\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nmale\n1.70\n1.9\n2.8\n2.00\n2.10\n2.90\n2.20\n1.40\n1.70\n1.80\n2.60\n2.20\n2.20\n2.10\n1.70\n2.90\n2.2\n1.00\n2.40\n1.80\n1.50\n1.90\n1.50\n1.60\n1.70\n1.20\n2.40\n2.10\n1.40\n2.60\n\n\nfemale\n1.93\n1.2\n2.4\n2.38\n2.32\n2.19\n2.05\n1.44\n1.19\n1.12\n0.81\n1.29\n0.23\n3.67\n2.71\n0.38\n1.1\n1.03\n2.28\n1.42\n1.75\n1.47\n1.46\n2.87\n1.27\n3.02\n0.05\n2.08\n1.62\n1.72"
+  },
+  {
+    "objectID": "Week8/index.html#section",
+    "href": "Week8/index.html#section",
+    "title": "Hypothesis Testing",
+    "section": "",
+    "text": "Null Hypothesis (H0): This is the statement you’re initially assuming to be true. It often represents no effect, no difference, or no relationship.\nAlternative Hypothesis (H1 or Ha): This is the statement you’re trying to find evidence for. It contradicts the null hypothesis."
   }
 ]
