@@ -1,0 +1,46 @@
+---
+title: "Hypothesis Testing"
+subtitle: ""
+author: "Dr. Thiyanga S. Talagala <br/>  Department of Statistics, Faculty of Applied Sciences <br/> University of Sri Jayewardenepura, Sri Lanka"
+format:
+  revealjs:
+    css:
+        - "custom.css"
+    width: 1600
+    height: 900
+    margin: 0.1
+    theme: simple
+    transition: slide
+    background-transition: fade
+    slide-number: true
+    show-slide-number: all
+    title-slide-attributes: 
+      data-background-color: "#081d58"
+      data-background-image: none
+---
+
+## What is a hypothesis?
+
+In statistics, a hypothesis is a formal statement or claim about a population parameter (like a mean, proportion, or variance) or the relationship between variables that can be tested using statistical methods.
+
+## Question
+
+A researcher claims that the average monthly expenditure of female students is higher than that of male students at the University of Sri Jayewardenepura during the month of April. To evaluate this claim, he gathers expenditure data from all the students at the university for the month of April. How should he proceed to test the claim?
+
+
+## Why Hypothesis Testing is Usually Not Needed with Population Data?
+
+- Population Parameters are Known: With complete population data, you can calculate the exact values (e.g., population mean, standard deviation) instead of estimating them from a sample.
+
+- No Uncertainty: Hypothesis testing is used to manage uncertainty and variability introduced by sampling. With population data, there is no sampling uncertainty to account for.
+
+
+## Purpose of Hypothesis Testing
+
+
+- Hypothesis testing is specifically designed for making inferences about a population based on sample data.
+
+
+- The goal of hypothesis testing is to use sample data to determine whether there is enough evidence to reject the null hypothesis in favor of the alternative hypothesis, while controlling for error.
+
+

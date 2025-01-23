@@ -390,5 +390,33 @@
     "title": "Time Series Analysis",
     "section": "Step 9: Evaluate forecast accuracy",
     "text": "Step 9: Evaluate forecast accuracy\n\\(ARIMA(0,1,1)(0,1,1)_{12}\\)\n\n\n                ME   RMSE      MAE       MPE     MAPE       ACF1 Theil's U\nTest set -33.71566 36.559 33.71566 -8.112567 8.112567 0.08524612 0.7974916\n\n\n\\(ARIMA(0,1,1)(1,1,1)_{12}\\)\n\n\n                ME     RMSE      MAE       MPE     MAPE       ACF1 Theil's U\nTest set -34.12174 36.87661 34.12174 -8.190874 8.190874 0.06782644 0.8019226\n\n\n\\(ARIMA(0,1,1)(0,1,1)_{12}\\) MAE, MAPE is smaller than \\(ARIMA(0,1,1)(1,1,1)_{12}\\). Hence, we select \\(ARIMA(0,1,1)(0,1,1)_{12}\\) to forecast future values."
+  },
+  {
+    "objectID": "Week8/index.html#what-is-a-hypothesis",
+    "href": "Week8/index.html#what-is-a-hypothesis",
+    "title": "Hypothesis Testing",
+    "section": "What is a hypothesis?",
+    "text": "What is a hypothesis?\nIn statistics, a hypothesis is a formal statement or claim about a population parameter (like a mean, proportion, or variance) or the relationship between variables that can be tested using statistical methods."
+  },
+  {
+    "objectID": "Week8/index.html#purpose-of-hypothesis-testing",
+    "href": "Week8/index.html#purpose-of-hypothesis-testing",
+    "title": "Hypothesis Testing",
+    "section": "Purpose of Hypothesis Testing",
+    "text": "Purpose of Hypothesis Testing\n\nHypothesis testing is specifically designed for making inferences about a population based on sample data.\nThe goal of hypothesis testing is to use sample data to determine whether there is enough evidence to reject the null hypothesis in favor of the alternative hypothesis, while controlling for error."
+  },
+  {
+    "objectID": "Week8/index.html#question",
+    "href": "Week8/index.html#question",
+    "title": "Hypothesis Testing",
+    "section": "Question",
+    "text": "Question\nA researcher claims that the average monthly expenditure of female students is higher than that of male students at the University of Sri Jayewardenepura during the month of April. To evaluate this claim, he gathers expenditure data from all the students at the university for the month of April. How should he proceed to test the claim?"
+  },
+  {
+    "objectID": "Week8/index.html#why-hypothesis-testing-is-usually-not-needed-with-population-data",
+    "href": "Week8/index.html#why-hypothesis-testing-is-usually-not-needed-with-population-data",
+    "title": "Hypothesis Testing",
+    "section": "Why Hypothesis Testing is Usually Not Needed with Population Data?",
+    "text": "Why Hypothesis Testing is Usually Not Needed with Population Data?\n\nPopulation Parameters are Known: With complete population data, you can calculate the exact values (e.g., population mean, standard deviation) instead of estimating them from a sample.\nNo Uncertainty: Hypothesis testing is used to manage uncertainty and variability introduced by sampling. With population data, there is no sampling uncertainty to account for."
   }
 ]
