@@ -1,150 +1,192 @@
 [
   {
-    "objectID": "Week8/index.html#what-is-a-hypothesis",
-    "href": "Week8/index.html#what-is-a-hypothesis",
-    "title": "Hypothesis Testing",
-    "section": "What is a hypothesis?",
-    "text": "What is a hypothesis?\nIn statistics, a hypothesis is a formal statement or claim about a population parameter (like a mean, proportion, or variance) or the relationship between variables that can be tested using statistical methods."
-  },
-  {
-    "objectID": "Week8/index.html#question-1",
-    "href": "Week8/index.html#question-1",
+    "objectID": "Week9/index.html#question-1",
+    "href": "Week9/index.html#question-1",
     "title": "Hypothesis Testing",
     "section": "Question 1",
-    "text": "Question 1\nA researcher claims that the average monthly expenditure of female students is higher than that of male students at the University of Sri Jayewardenepura during the month of April. To evaluate this claim, he gathers expenditure data from all the students at the university for the month of April. How should he proceed to test the claim?"
+    "text": "Question 1\nIn a glaucoma study, intraocular pressure (IOP) values (in mm Hg) were recorded from a sample of 21 elderly subjects. The sample had the following characteristics:\n\\[n= 21\\] \\[\\bar{x}= 15.2 \\text{mm Hg}\\] \\[s = 3.1 \\text{mm Hg}\\] At a significance level of 0.05, can we conclude that the mean intraocular pressure of the population differs from 14 mm Hg? Perform a hypothesis test to determine the answer."
   },
   {
-    "objectID": "Week8/index.html#why-hypothesis-testing-is-usually-not-needed-with-population-data",
-    "href": "Week8/index.html#why-hypothesis-testing-is-usually-not-needed-with-population-data",
-    "title": "Hypothesis Testing",
-    "section": "Why Hypothesis Testing is Usually Not Needed with Population Data?",
-    "text": "Why Hypothesis Testing is Usually Not Needed with Population Data?\n\nPopulation Parameters are Known: With complete population data, you can calculate the exact values (e.g., population mean, standard deviation) instead of estimating them from a sample.\nNo Uncertainty: Hypothesis testing is used to manage uncertainty and variability introduced by sampling. With population data, there is no sampling uncertainty to account for."
-  },
-  {
-    "objectID": "Week8/index.html#purpose-of-hypothesis-testing",
-    "href": "Week8/index.html#purpose-of-hypothesis-testing",
-    "title": "Hypothesis Testing",
-    "section": "Purpose of Hypothesis Testing",
-    "text": "Purpose of Hypothesis Testing\n\nHypothesis testing is specifically designed for making inferences about a population based on sample data.\nThe goal of hypothesis testing is to use sample data to determine whether there is enough evidence to reject the null hypothesis in favor of the alternative hypothesis, while controlling for error."
-  },
-  {
-    "objectID": "Week8/index.html#question-2",
-    "href": "Week8/index.html#question-2",
+    "objectID": "Week9/index.html#question-2",
+    "href": "Week9/index.html#question-2",
     "title": "Hypothesis Testing",
     "section": "Question 2",
-    "text": "Question 2\nA wildlife researcher claims that the average height of one-week-old male elephants is greater than 2.0 meters. The researcher collects data from a sample of 30 male elephants. The sample has a mean height of 2.1 meters and a standard deviation of 0.5 meters. Test this claim at the 0.05 significance level.\n\nWrite the null hypothesis and alternative hypothesis for this situation."
+    "text": "Question 2\nA market research company conducted a survey to investigate whether the type of beverage ordered with dinner at a restaurant independent of the age of the consumer. A random poll of 240 lunch customers is taken, resulting in the following contingency table of observed values. Can you conclude that the type of beverage ordered is independent of age?"
   },
   {
-    "objectID": "Week8/index.html#section",
-    "href": "Week8/index.html#section",
-    "title": "Hypothesis Testing",
-    "section": "",
-    "text": "Null Hypothesis (H0): This is the statement you’re initially assuming to be true. It often represents no effect, no difference, or no relationship.\nAlternative Hypothesis (H1 or Ha): This is the statement you’re trying to find evidence for. It contradicts the null hypothesis."
-  },
-  {
-    "objectID": "Week8/index.html#common-methods",
-    "href": "Week8/index.html#common-methods",
-    "title": "Hypothesis Testing",
-    "section": "Common methods",
-    "text": "Common methods\n\nLikelihood ratio method\nMethod of moments\nScore (Lagrange multiplier)\nWard test\nBayesian methods\nPermutation and resampling methods\nMaximum likelihood estimation\nMethod of least squares"
-  },
-  {
-    "objectID": "Week8/index.html#key-requirements",
-    "href": "Week8/index.html#key-requirements",
-    "title": "Hypothesis Testing",
-    "section": "Key Requirements",
-    "text": "Key Requirements\n\nTest statistics are calculated from the sample data.\nWe should be able to derive its probability distribution under the null hypothesis (exactly or approximately)."
-  },
-  {
-    "objectID": "Week8/index.html#in-this-example-out-test-statisic-is",
-    "href": "Week8/index.html#in-this-example-out-test-statisic-is",
-    "title": "Hypothesis Testing",
-    "section": "In this example out test statisic is",
-    "text": "In this example out test statisic is\n\\[T = \\frac{\\bar{X}-\\mu}{s/\\sqrt{n}}\\]"
-  },
-  {
-    "objectID": "Week8/index.html#understanding-the-decision-making-process-in-hypothesis-testing",
-    "href": "Week8/index.html#understanding-the-decision-making-process-in-hypothesis-testing",
-    "title": "Hypothesis Testing",
-    "section": "Understanding the decision making process in hypothesis testing",
-    "text": "Understanding the decision making process in hypothesis testing\nWe look at the distribution of the test statistic under the null hypothesis to understand how the test statistic behaves when the null hypothesis is true.\n\\[T = \\frac{\\bar{X}-1}{s/\\sqrt{n}} \\sim t_{n-1}\\]"
-  },
-  {
-    "objectID": "Week8/index.html#errors-in-hypothesis-testing",
-    "href": "Week8/index.html#errors-in-hypothesis-testing",
-    "title": "Hypothesis Testing",
-    "section": "Errors in Hypothesis Testing",
-    "text": "Errors in Hypothesis Testing\n\nThe Type I error is the probability of rejecting the null hypothesis when it is actually true.\n\n\\[\\alpha = 𝑃(\\text{Reject } H_0|H_0 \\text{ is true})\\]\n\nType II error is the probability of failing to reject the null hypothesis when the alternative hypothesis is actually true.\n\n\\[\\beta = 𝑃(\\text{Falling to Reject } H_0|H_0 \\text{ is false})\\]\nThis is very similar to\n• False negative test = type I error\n• False positive test = type II error"
-  },
-  {
-    "objectID": "Week8/index.html#significance-level",
-    "href": "Week8/index.html#significance-level",
-    "title": "Hypothesis Testing",
-    "section": "Significance level",
-    "text": "Significance level\n\\[\\alpha = 𝑃(\\text{Reject } H_0|H_0 \\text{ is true})\\]\nThe more serious the type I error, the smaller the significance level should be."
-  },
-  {
-    "objectID": "Week8/index.html#power",
-    "href": "Week8/index.html#power",
-    "title": "Hypothesis Testing",
-    "section": "Power",
-    "text": "Power\n\\[\\text{Power} = 1-\\beta\\]\nThe power of a test is the probability of rejecting the null hypothesis when it is false; in other words, it is the probability of avoiding a type II error."
-  },
-  {
-    "objectID": "Week8/index.html#true-or-fasle",
-    "href": "Week8/index.html#true-or-fasle",
-    "title": "Hypothesis Testing",
-    "section": "TRUE or FASLE",
-    "text": "TRUE or FASLE\nPower increases when:\n\\(n\\) increases.\n\\(d\\) (effect size) increases.\nVariance decreases.\n\\(\\alpha\\) increases.\nA one-tailed test is appropriate."
-  },
-  {
-    "objectID": "Week8/index.html#question-2-solution---inclass-discussion",
-    "href": "Week8/index.html#question-2-solution---inclass-discussion",
-    "title": "Hypothesis Testing",
-    "section": "Question 2: Solution - inclass discussion",
-    "text": "Question 2: Solution - inclass discussion"
-  },
-  {
-    "objectID": "Week8/index.html#section-1",
-    "href": "Week8/index.html#section-1",
-    "title": "Hypothesis Testing",
-    "section": "",
-    "text": "If the null hypothesis is not rejected, we do not accept the alternative: we do not have enough evidence to conclude that the alternative hypothesis is true. This does not mean that the null hypothesis is true; it simply indicates that the sample data does not provide strong enough evidence against it at the chosen significance level.\nIn other words, the null hypothesis represents what we assume to be true unless there is strong evidence to suggest otherwise."
-  },
-  {
-    "objectID": "Week8/index.html#question-3",
-    "href": "Week8/index.html#question-3",
+    "objectID": "Week9/index.html#question-3",
+    "href": "Week9/index.html#question-3",
     "title": "Hypothesis Testing",
     "section": "Question 3",
-    "text": "Question 3\nA wildlife researcher claims that the average height of one-week-old male elephants is higher than that of one-week-old female elephants at an orphanage. The researcher collected data from thirty one-week-old male elephants and thirty one-week-old female elephants in order to test this claim."
+    "text": "Question 3\nA researcher wants to determine whether there is a significant difference in mean intraocular pressure (IOP) among three age groups of elderly subjects. The following data represent the recorded IOP values (in mm Hg) for each group:\nRecorded IOP Values (mm Hg) for Each Age Group:\nGroup 1 (Age 60-65): 14, 15, 13, 16, 15, 14, 17, 16, 13, 15\nGroup 2 (Age 66-70): 17, 16, 15, 18, 14, 17, 16, 15, 19, 14, 18, 17\nGroup 3 (Age 71-75): 13, 12, 14, 15, 13, 12, 16, 14, 15, 13, 14\nAt a 0.05 significance level, can we conclude that the mean intraocular pressure differs among the three age groups?"
   },
   {
-    "objectID": "Week8/index.html#data-set",
-    "href": "Week8/index.html#data-set",
-    "title": "Hypothesis Testing",
-    "section": "Data set",
-    "text": "Data set\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nmale\n1.70\n1.9\n2.8\n2.00\n2.10\n2.90\n2.20\n1.40\n1.70\n1.80\n2.60\n2.20\n2.20\n2.10\n1.70\n2.90\n2.2\n1.00\n2.40\n1.80\n1.50\n1.90\n1.50\n1.60\n1.70\n1.20\n2.40\n2.10\n1.40\n2.60\n\n\nfemale\n1.93\n1.2\n2.4\n2.38\n2.32\n2.19\n2.05\n1.44\n1.19\n1.12\n0.81\n1.29\n0.23\n3.67\n2.71\n0.38\n1.1\n1.03\n2.28\n1.42\n1.75\n1.47\n1.46\n2.87\n1.27\n3.02\n0.05\n2.08\n1.62\n1.72"
+    "objectID": "Week6/index.html#how-do-we-estimate-f",
+    "href": "Week6/index.html#how-do-we-estimate-f",
+    "title": "Linear Regression Analysis",
+    "section": "How do we estimate \\(f\\)?",
+    "text": "How do we estimate \\(f\\)?\nNon-parametric methods:\nestimate \\(f\\) using observed data without making explicit assumptions about the functional form of \\(f\\).\nParametric methods\nestimate \\(f\\) using observed data by making assumptions about the functional form of \\(f\\).\nEx: \\(Y = \\beta_0 + \\beta_1x_1 + \\beta_2x_2 + \\beta_3x_3 + \\epsilon\\)\nbackground-image: url(‘regressionpaper2.png’) background-position: center background-size: contain"
   },
   {
-    "objectID": "Week8/index.html#question-4",
-    "href": "Week8/index.html#question-4",
-    "title": "Hypothesis Testing",
-    "section": "Question 4",
-    "text": "Question 4\nAs reported by a NEWS channel, the mean serum high density (HDL) cholesterol of female 20 - 29 years old is 53. A doctor claims that the HDL Cholesterol level of female 20 - 29 years old is greater than 53. He uses the following data, randomly gathered from 22 individuals.\n65, 47, 51, 54, 70, 55, 44, 48, 36, 53, 45, 34, 59, 45, 54, 50, 40, 60, 53, 53, 54, 55\nIt is known from past research that the distribution of the HDL cholesterol is normally distributed and the corresponding population variance is 81. Test the claim that the HDL level is greater than 53 at \\(\\alpha\\) = 0.01 level of significance."
+    "objectID": "Week6/index.html#do-not-under-estimate-the-power-of-simple-models.",
+    "href": "Week6/index.html#do-not-under-estimate-the-power-of-simple-models.",
+    "title": "Linear Regression Analysis",
+    "section": "Do not under-estimate the power of simple models.",
+    "text": "Do not under-estimate the power of simple models."
   },
   {
-    "objectID": "Week8/index.html#question-5",
-    "href": "Week8/index.html#question-5",
-    "title": "Hypothesis Testing",
-    "section": "Question 5",
-    "text": "Question 5\nA chemist wants to measure the bias in a pH meter. She uses the meter to measure the pH in 14 neutral substances (pH=7) and obtains the data below.\n7.01, 7.04, 6.97, 7.00, 6.99, 6.97, 7.04, 7.04, 7.01, 7.00, 6.99, 7.04, 7.07, 6.97\nIs there sufficient evidence to support the claim that the pH meter is not correctly calibrated at the α = 0.05 level of significance?"
+    "objectID": "Week4/index.html#interpret-the-plot",
+    "href": "Week4/index.html#interpret-the-plot",
+    "title": "Time Series Analysis",
+    "section": "Interpret the plot",
+    "text": "Interpret the plot"
   },
   {
-    "objectID": "Week8/index.html#question-6",
-    "href": "Week8/index.html#question-6",
-    "title": "Hypothesis Testing",
-    "section": "Question 6",
-    "text": "Question 6\nA dietician hopes to reduce a person’s cholesterol level by using a special diet supplemented with a combination of vitamin pills. Twenty (20) subjects were pre-tested and then placed on diet for two weeks. Their cholesterol levels were checked after the two week period. The results are shown below. Cholesterol levels are measured in milligrams per decilitre.\nbefore: 210, 235, 208, 190, 172, 244, 211, 235, 210, 190, 175, 250, 200, 270, 222, 203, 209, 220, 250, 280)\nafter: 190, 170, 210, 188, 173, 195, 228, 200, 210, 184, 196, 208, 211, 212, 205, 221, 240, 250, 230, 220\nTest the claim that the Cholesterol level before the special diet is greater than the Cholesterol level after the special diet at α = 0.01 level of significance."
+    "objectID": "Week4/index.html#acf-plot-for-the-original-series",
+    "href": "Week4/index.html#acf-plot-for-the-original-series",
+    "title": "Time Series Analysis",
+    "section": "ACF plot for the original series",
+    "text": "ACF plot for the original series"
+  },
+  {
+    "objectID": "Week4/index.html#draw-the-acf-plot-of-the-following-time-series",
+    "href": "Week4/index.html#draw-the-acf-plot-of-the-following-time-series",
+    "title": "Time Series Analysis",
+    "section": "Draw the ACF plot of the following time series",
+    "text": "Draw the ACF plot of the following time series\n\n\n\n\n     Qtr1 Qtr2 Qtr3 Qtr4\n1992  443  410  420  532\n1993  433  421  410  512\n1994  449  381  423  531\n1995  426  408  416  520\n1996  409  398  398  507\n1997  432  398  406  526\n1998  428  397  403  517\n1999  435  383  424  521\n2000  421  402  414  500\n2001  451  380  416  492\n2002  428  408  406  506\n2003  435  380  421  490\n2004  435  390  412  454\n2005  416  403  408  482\n2006  438  386  405  491\n2007  427  383  394  473\n2008  420  390  410  488\n2009  415  398  419  488\n2010  414  374"
+  },
+  {
+    "objectID": "Week4/index.html#simple-forecasting-methods",
+    "href": "Week4/index.html#simple-forecasting-methods",
+    "title": "Time Series Analysis",
+    "section": "Simple forecasting methods",
+    "text": "Simple forecasting methods\n\nAverage method\ndrift method\nnaive forecast\nsnaive forecast"
+  },
+  {
+    "objectID": "Week4/index.html#sarima-models",
+    "href": "Week4/index.html#sarima-models",
+    "title": "Time Series Analysis",
+    "section": "(S)ARIMA models",
+    "text": "(S)ARIMA models\n\nAR models\nMA models\nARMA models\nARIMA models\nSARIMA models"
+  },
+  {
+    "objectID": "Week4/index.html#what-are-the-key-steps-involved-in-fitting-an-sarima-model-to-a-time-series-data-and-how-do-you-evaluate-the-models-performancemodels",
+    "href": "Week4/index.html#what-are-the-key-steps-involved-in-fitting-an-sarima-model-to-a-time-series-data-and-how-do-you-evaluate-the-models-performancemodels",
+    "title": "Time Series Analysis",
+    "section": "What are the key steps involved in fitting an (S)ARIMA model to a time series data, and how do you evaluate the model’s performance?models",
+    "text": "What are the key steps involved in fitting an (S)ARIMA model to a time series data, and how do you evaluate the model’s performance?models"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "STA 315 2.0 Essential Skills in Statistics",
+    "section": "",
+    "text": "To access important information regarding the unit, please go to the Google Classroom of the unit."
+  },
+  {
+    "objectID": "index.html#lecture-1-22-november-2024",
+    "href": "index.html#lecture-1-22-november-2024",
+    "title": "STA 315 2.0 Essential Skills in Statistics",
+    "section": "Lecture 1: 22 November 2024",
+    "text": "Lecture 1: 22 November 2024\nSlides 1"
+  },
+  {
+    "objectID": "index.html#lecture-2-29-november-2024",
+    "href": "index.html#lecture-2-29-november-2024",
+    "title": "STA 315 2.0 Essential Skills in Statistics",
+    "section": "Lecture 2: 29 November 2024",
+    "text": "Lecture 2: 29 November 2024\nSlides 2"
+  },
+  {
+    "objectID": "index.html#lecture-3-6-december-2024",
+    "href": "index.html#lecture-3-6-december-2024",
+    "title": "STA 315 2.0 Essential Skills in Statistics",
+    "section": "Lecture 3: 6 December 2024",
+    "text": "Lecture 3: 6 December 2024\nSlides 3"
+  },
+  {
+    "objectID": "index.html#lecture-4-13-december-2024",
+    "href": "index.html#lecture-4-13-december-2024",
+    "title": "STA 315 2.0 Essential Skills in Statistics",
+    "section": "Lecture 4: 13 December 2024",
+    "text": "Lecture 4: 13 December 2024\nSlides 4\nData: Access the dataset named srilanka_weekly_data using the app provided below.\nhttps://denguedatahub.shinyapps.io/denguedatahub/\nAssignment 1: denguedata visualisations"
+  },
+  {
+    "objectID": "index.html#lecture-5-20-december-2024",
+    "href": "index.html#lecture-5-20-december-2024",
+    "title": "STA 315 2.0 Essential Skills in Statistics",
+    "section": "Lecture 5: 20 December 2024",
+    "text": "Lecture 5: 20 December 2024\nSlides 5\nAssignment 1 - Feedback - Students’ Answers"
+  },
+  {
+    "objectID": "index.html#lecture-6-3-january-2025",
+    "href": "index.html#lecture-6-3-january-2025",
+    "title": "STA 315 2.0 Essential Skills in Statistics",
+    "section": "Lecture 6: 3 January 2025",
+    "text": "Lecture 6: 3 January 2025\nSlides 6"
+  },
+  {
+    "objectID": "index.html#lecture-7-10-january-2025",
+    "href": "index.html#lecture-7-10-january-2025",
+    "title": "STA 315 2.0 Essential Skills in Statistics",
+    "section": "Lecture 7: 10 January 2025",
+    "text": "Lecture 7: 10 January 2025\nIn-class discussion problems"
+  },
+  {
+    "objectID": "index.html#lecture-8-17-january-2025",
+    "href": "index.html#lecture-8-17-january-2025",
+    "title": "STA 315 2.0 Essential Skills in Statistics",
+    "section": "Lecture 8: 17 January 2025",
+    "text": "Lecture 8: 17 January 2025\nMid-semester Examination (Lecture 1- Lecture 6)"
+  },
+  {
+    "objectID": "index.html#lecture-9-24-january-2025",
+    "href": "index.html#lecture-9-24-january-2025",
+    "title": "STA 315 2.0 Essential Skills in Statistics",
+    "section": "Lecture 9: 24 January 2025",
+    "text": "Lecture 9: 24 January 2025\nSlides 8\nCommon Errors Made by Students in STA 113 2.0 Descriptive Statistics: Key Essential Skills"
+  },
+  {
+    "objectID": "index.html#lecture-10-31-january-2025",
+    "href": "index.html#lecture-10-31-january-2025",
+    "title": "STA 315 2.0 Essential Skills in Statistics",
+    "section": "Lecture 10: 31 January 2025",
+    "text": "Lecture 10: 31 January 2025\nSlides 9"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "STA 315 2.0 Essential Skills in Statistics",
+    "section": "",
+    "text": "Code: CLT\n# Set parameters for the simulation\nset.seed(123)  # For reproducibility\nn &lt;- 1000      # Number of samples\nsample_size &lt;- c(5, 30, 100)  # Different sample sizes\nnum_simulations &lt;- 1000  # Number of simulations (trials)\n\n# Generate a non-normal distribution (e.g., Uniform)\npopulation_dist &lt;- runif(n * num_simulations, min = 0, max = 10)\n\n# Function to simulate and plot CLT demonstration\nplot_clt &lt;- function(sample_size, population_dist) {\n  means &lt;- numeric(num_simulations)\n  \n  for (i in 1:num_simulations) {\n    sample &lt;- sample(population_dist, sample_size, replace = TRUE)\n    means[i] &lt;- mean(sample)\n  }\n  \n  # Plot the distribution of sample means\n  hist(means, probability = TRUE, col = \"lightblue\", main = paste(\"Sample Size =\", sample_size),\n       xlab = \"Sample Means\", xlim = c(min(means), max(means)))\n  # Overlay a normal distribution with the same mean and sd as the sample means\n  curve(dnorm(x, mean = mean(means), sd = sd(means)), col = \"red\", lwd = 2, add = TRUE)\n}\n\n# Plot the distributions of sample means for different sample sizes\npar(mfrow = c(1, 3))  # Arrange plots side by side\nfor (size in sample_size) {\n  plot_clt(size, population_dist)\n}\n\n# Reset plotting layout\npar(mfrow = c(1, 1))\n````"
+  },
+  {
+    "objectID": "Week2/index.html#references",
+    "href": "Week2/index.html#references",
+    "title": "STA 315 2.0 Essential Skills in Statistics",
+    "section": "References",
+    "text": "References\n\nSOCIETY OF ACTUARIES\n\nQuestion 5\nIn a classroom of 25 students, 20 are undergraduates, and five are postgraduates.\nTwo of the 25 students are randomly chosen with replacement.\nCalculate the probability that exactly one of the two selected students is an undergraduate.\n\n\n\n−+\n10:00"
+  },
+  {
+    "objectID": "Week2/index.html#question-7",
+    "href": "Week2/index.html#question-7",
+    "title": "STA 315 2.0 Essential Skills in Statistics",
+    "section": "Question 7",
+    "text": "Question 7\nFor a person with the disease, the test will give a “negative” result (disease not detected) with a probability of 0.10.\nFor a person without the disease, the test will give a “positive” result (incorrectly detecting the disease) with a probability of 0.20.\n20% of people being tested actually have the disease.\nWe want to calculate the probability that a person has the disease, given that their test result is “positive” (disease detected).\n\n\n\n−+\n10:00"
+  },
+  {
+    "objectID": "Week2/index.html#question-8",
+    "href": "Week2/index.html#question-8",
+    "title": "STA 315 2.0 Essential Skills in Statistics",
+    "section": "Question 8",
+    "text": "Question 8\n\n\nA home owner purchases an insurance policy to offset costs associated with excessive amounts of flood. For every full 1 inches of flood in excess of 4 inches, the insurer pays the pwner Rs. 2000 up to a policy maximum of Rs. 5000. The following table shows a probability function for the random variable X of flood level, in inches, at the home.\nCalculate the standard deviation of the amount paid under the policy.\n\n\n\n−+\n10:00\n\n\n\n\n[\n\\[\\begin{array}{|c|c|}\n\\hline\n\\text{Inches of Rainfalll } (x) & p(x) \\\\\n\\hline\n0 \\leq x &lt; 2 & 0.06 \\\\\n2 \\leq x &lt; 3 & 0.18 \\\\\n3 \\leq x &lt; 4 & 0.26 \\\\\n4 \\leq x &lt; 5 & 0.22 \\\\\n5 \\leq x &lt; 6 & 0.14 \\\\\n6 \\leq x &lt; 7 & 0.06 \\\\\n7 \\leq x &lt; 8 & 0.04 \\\\\n8 \\leq x &lt; 9 & 0.04 \\\\\n9 \\leq x & 0.00 \\\\\n\\hline\n\\end{array}\\]\n]"
+  },
+  {
+    "objectID": "Week2/index.html#question-9",
+    "href": "Week2/index.html#question-9",
+    "title": "STA 315 2.0 Essential Skills in Statistics",
+    "section": "Question 9",
+    "text": "Question 9\nThe monthly income that an sales agent earns is modeled by a random variable X with probability density function\n[in-class]\nCalculate the probability that the income the agent earns in a month is within 0.5 standard deviations of E(X).\n\n\n\n−+\n10:00"
   },
   {
     "objectID": "Week5/index.html#identify-the-features-of-the-time-series",
@@ -385,164 +427,150 @@
     "text": "Step 9: Evaluate forecast accuracy\n\\(ARIMA(0,1,1)(0,1,1)_{12}\\)\n\n\n                ME   RMSE      MAE       MPE     MAPE       ACF1 Theil's U\nTest set -33.71566 36.559 33.71566 -8.112567 8.112567 0.08524612 0.7974916\n\n\n\\(ARIMA(0,1,1)(1,1,1)_{12}\\)\n\n\n                ME     RMSE      MAE       MPE     MAPE       ACF1 Theil's U\nTest set -34.12174 36.87661 34.12174 -8.190874 8.190874 0.06782644 0.8019226\n\n\n\\(ARIMA(0,1,1)(0,1,1)_{12}\\) MAE, MAPE is smaller than \\(ARIMA(0,1,1)(1,1,1)_{12}\\). Hence, we select \\(ARIMA(0,1,1)(0,1,1)_{12}\\) to forecast future values."
   },
   {
-    "objectID": "Week2/index.html#references",
-    "href": "Week2/index.html#references",
-    "title": "STA 315 2.0 Essential Skills in Statistics",
-    "section": "References",
-    "text": "References\n\nSOCIETY OF ACTUARIES\n\nQuestion 5\nIn a classroom of 25 students, 20 are undergraduates, and five are postgraduates.\nTwo of the 25 students are randomly chosen with replacement.\nCalculate the probability that exactly one of the two selected students is an undergraduate.\n\n\n\n−+\n10:00"
+    "objectID": "Week8/index.html#what-is-a-hypothesis",
+    "href": "Week8/index.html#what-is-a-hypothesis",
+    "title": "Hypothesis Testing",
+    "section": "What is a hypothesis?",
+    "text": "What is a hypothesis?\nIn statistics, a hypothesis is a formal statement or claim about a population parameter (like a mean, proportion, or variance) or the relationship between variables that can be tested using statistical methods."
   },
   {
-    "objectID": "Week2/index.html#question-7",
-    "href": "Week2/index.html#question-7",
-    "title": "STA 315 2.0 Essential Skills in Statistics",
-    "section": "Question 7",
-    "text": "Question 7\nFor a person with the disease, the test will give a “negative” result (disease not detected) with a probability of 0.10.\nFor a person without the disease, the test will give a “positive” result (incorrectly detecting the disease) with a probability of 0.20.\n20% of people being tested actually have the disease.\nWe want to calculate the probability that a person has the disease, given that their test result is “positive” (disease detected).\n\n\n\n−+\n10:00"
+    "objectID": "Week8/index.html#question-1",
+    "href": "Week8/index.html#question-1",
+    "title": "Hypothesis Testing",
+    "section": "Question 1",
+    "text": "Question 1\nA researcher claims that the average monthly expenditure of female students is higher than that of male students at the University of Sri Jayewardenepura during the month of April. To evaluate this claim, he gathers expenditure data from all the students at the university for the month of April. How should he proceed to test the claim?"
   },
   {
-    "objectID": "Week2/index.html#question-8",
-    "href": "Week2/index.html#question-8",
-    "title": "STA 315 2.0 Essential Skills in Statistics",
-    "section": "Question 8",
-    "text": "Question 8\n\n\nA home owner purchases an insurance policy to offset costs associated with excessive amounts of flood. For every full 1 inches of flood in excess of 4 inches, the insurer pays the pwner Rs. 2000 up to a policy maximum of Rs. 5000. The following table shows a probability function for the random variable X of flood level, in inches, at the home.\nCalculate the standard deviation of the amount paid under the policy.\n\n\n\n−+\n10:00\n\n\n\n\n[\n\\[\\begin{array}{|c|c|}\n\\hline\n\\text{Inches of Rainfalll } (x) & p(x) \\\\\n\\hline\n0 \\leq x &lt; 2 & 0.06 \\\\\n2 \\leq x &lt; 3 & 0.18 \\\\\n3 \\leq x &lt; 4 & 0.26 \\\\\n4 \\leq x &lt; 5 & 0.22 \\\\\n5 \\leq x &lt; 6 & 0.14 \\\\\n6 \\leq x &lt; 7 & 0.06 \\\\\n7 \\leq x &lt; 8 & 0.04 \\\\\n8 \\leq x &lt; 9 & 0.04 \\\\\n9 \\leq x & 0.00 \\\\\n\\hline\n\\end{array}\\]\n]"
+    "objectID": "Week8/index.html#why-hypothesis-testing-is-usually-not-needed-with-population-data",
+    "href": "Week8/index.html#why-hypothesis-testing-is-usually-not-needed-with-population-data",
+    "title": "Hypothesis Testing",
+    "section": "Why Hypothesis Testing is Usually Not Needed with Population Data?",
+    "text": "Why Hypothesis Testing is Usually Not Needed with Population Data?\n\nPopulation Parameters are Known: With complete population data, you can calculate the exact values (e.g., population mean, standard deviation) instead of estimating them from a sample.\nNo Uncertainty: Hypothesis testing is used to manage uncertainty and variability introduced by sampling. With population data, there is no sampling uncertainty to account for."
   },
   {
-    "objectID": "Week2/index.html#question-9",
-    "href": "Week2/index.html#question-9",
-    "title": "STA 315 2.0 Essential Skills in Statistics",
-    "section": "Question 9",
-    "text": "Question 9\nThe monthly income that an sales agent earns is modeled by a random variable X with probability density function\n[in-class]\nCalculate the probability that the income the agent earns in a month is within 0.5 standard deviations of E(X).\n\n\n\n−+\n10:00"
+    "objectID": "Week8/index.html#purpose-of-hypothesis-testing",
+    "href": "Week8/index.html#purpose-of-hypothesis-testing",
+    "title": "Hypothesis Testing",
+    "section": "Purpose of Hypothesis Testing",
+    "text": "Purpose of Hypothesis Testing\n\nHypothesis testing is specifically designed for making inferences about a population based on sample data.\nThe goal of hypothesis testing is to use sample data to determine whether there is enough evidence to reject the null hypothesis in favor of the alternative hypothesis, while controlling for error."
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "STA 315 2.0 Essential Skills in Statistics",
+    "objectID": "Week8/index.html#question-2",
+    "href": "Week8/index.html#question-2",
+    "title": "Hypothesis Testing",
+    "section": "Question 2",
+    "text": "Question 2\nA wildlife researcher claims that the average height of one-week-old male elephants is greater than 2.0 meters. The researcher collects data from a sample of 30 male elephants. The sample has a mean height of 2.1 meters and a standard deviation of 0.5 meters. Test this claim at the 0.05 significance level.\n\nWrite the null hypothesis and alternative hypothesis for this situation."
+  },
+  {
+    "objectID": "Week8/index.html#section",
+    "href": "Week8/index.html#section",
+    "title": "Hypothesis Testing",
     "section": "",
-    "text": "Code: CLT\n# Set parameters for the simulation\nset.seed(123)  # For reproducibility\nn &lt;- 1000      # Number of samples\nsample_size &lt;- c(5, 30, 100)  # Different sample sizes\nnum_simulations &lt;- 1000  # Number of simulations (trials)\n\n# Generate a non-normal distribution (e.g., Uniform)\npopulation_dist &lt;- runif(n * num_simulations, min = 0, max = 10)\n\n# Function to simulate and plot CLT demonstration\nplot_clt &lt;- function(sample_size, population_dist) {\n  means &lt;- numeric(num_simulations)\n  \n  for (i in 1:num_simulations) {\n    sample &lt;- sample(population_dist, sample_size, replace = TRUE)\n    means[i] &lt;- mean(sample)\n  }\n  \n  # Plot the distribution of sample means\n  hist(means, probability = TRUE, col = \"lightblue\", main = paste(\"Sample Size =\", sample_size),\n       xlab = \"Sample Means\", xlim = c(min(means), max(means)))\n  # Overlay a normal distribution with the same mean and sd as the sample means\n  curve(dnorm(x, mean = mean(means), sd = sd(means)), col = \"red\", lwd = 2, add = TRUE)\n}\n\n# Plot the distributions of sample means for different sample sizes\npar(mfrow = c(1, 3))  # Arrange plots side by side\nfor (size in sample_size) {\n  plot_clt(size, population_dist)\n}\n\n# Reset plotting layout\npar(mfrow = c(1, 1))\n````"
+    "text": "Null Hypothesis (H0): This is the statement you’re initially assuming to be true. It often represents no effect, no difference, or no relationship.\nAlternative Hypothesis (H1 or Ha): This is the statement you’re trying to find evidence for. It contradicts the null hypothesis."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "STA 315 2.0 Essential Skills in Statistics",
+    "objectID": "Week8/index.html#common-methods",
+    "href": "Week8/index.html#common-methods",
+    "title": "Hypothesis Testing",
+    "section": "Common methods",
+    "text": "Common methods\n\nLikelihood ratio method\nMethod of moments\nScore (Lagrange multiplier)\nWard test\nBayesian methods\nPermutation and resampling methods\nMaximum likelihood estimation\nMethod of least squares"
+  },
+  {
+    "objectID": "Week8/index.html#key-requirements",
+    "href": "Week8/index.html#key-requirements",
+    "title": "Hypothesis Testing",
+    "section": "Key Requirements",
+    "text": "Key Requirements\n\nTest statistics are calculated from the sample data.\nWe should be able to derive its probability distribution under the null hypothesis (exactly or approximately)."
+  },
+  {
+    "objectID": "Week8/index.html#in-this-example-out-test-statisic-is",
+    "href": "Week8/index.html#in-this-example-out-test-statisic-is",
+    "title": "Hypothesis Testing",
+    "section": "In this example out test statisic is",
+    "text": "In this example out test statisic is\n\\[T = \\frac{\\bar{X}-\\mu}{s/\\sqrt{n}}\\]"
+  },
+  {
+    "objectID": "Week8/index.html#understanding-the-decision-making-process-in-hypothesis-testing",
+    "href": "Week8/index.html#understanding-the-decision-making-process-in-hypothesis-testing",
+    "title": "Hypothesis Testing",
+    "section": "Understanding the decision making process in hypothesis testing",
+    "text": "Understanding the decision making process in hypothesis testing\nWe look at the distribution of the test statistic under the null hypothesis to understand how the test statistic behaves when the null hypothesis is true.\n\\[T = \\frac{\\bar{X}-1}{s/\\sqrt{n}} \\sim t_{n-1}\\]"
+  },
+  {
+    "objectID": "Week8/index.html#errors-in-hypothesis-testing",
+    "href": "Week8/index.html#errors-in-hypothesis-testing",
+    "title": "Hypothesis Testing",
+    "section": "Errors in Hypothesis Testing",
+    "text": "Errors in Hypothesis Testing\n\nThe Type I error is the probability of rejecting the null hypothesis when it is actually true.\n\n\\[\\alpha = 𝑃(\\text{Reject } H_0|H_0 \\text{ is true})\\]\n\nType II error is the probability of failing to reject the null hypothesis when the alternative hypothesis is actually true.\n\n\\[\\beta = 𝑃(\\text{Falling to Reject } H_0|H_0 \\text{ is false})\\]\nThis is very similar to\n• False negative test = type I error\n• False positive test = type II error"
+  },
+  {
+    "objectID": "Week8/index.html#significance-level",
+    "href": "Week8/index.html#significance-level",
+    "title": "Hypothesis Testing",
+    "section": "Significance level",
+    "text": "Significance level\n\\[\\alpha = 𝑃(\\text{Reject } H_0|H_0 \\text{ is true})\\]\nThe more serious the type I error, the smaller the significance level should be."
+  },
+  {
+    "objectID": "Week8/index.html#power",
+    "href": "Week8/index.html#power",
+    "title": "Hypothesis Testing",
+    "section": "Power",
+    "text": "Power\n\\[\\text{Power} = 1-\\beta\\]\nThe power of a test is the probability of rejecting the null hypothesis when it is false; in other words, it is the probability of avoiding a type II error."
+  },
+  {
+    "objectID": "Week8/index.html#true-or-fasle",
+    "href": "Week8/index.html#true-or-fasle",
+    "title": "Hypothesis Testing",
+    "section": "TRUE or FASLE",
+    "text": "TRUE or FASLE\nPower increases when:\n\\(n\\) increases.\n\\(d\\) (effect size) increases.\nVariance decreases.\n\\(\\alpha\\) increases.\nA one-tailed test is appropriate."
+  },
+  {
+    "objectID": "Week8/index.html#question-2-solution---inclass-discussion",
+    "href": "Week8/index.html#question-2-solution---inclass-discussion",
+    "title": "Hypothesis Testing",
+    "section": "Question 2: Solution - inclass discussion",
+    "text": "Question 2: Solution - inclass discussion"
+  },
+  {
+    "objectID": "Week8/index.html#section-1",
+    "href": "Week8/index.html#section-1",
+    "title": "Hypothesis Testing",
     "section": "",
-    "text": "To access important information regarding the unit, please go to the Google Classroom of the unit."
+    "text": "If the null hypothesis is not rejected, we do not accept the alternative: we do not have enough evidence to conclude that the alternative hypothesis is true. This does not mean that the null hypothesis is true; it simply indicates that the sample data does not provide strong enough evidence against it at the chosen significance level.\nIn other words, the null hypothesis represents what we assume to be true unless there is strong evidence to suggest otherwise."
   },
   {
-    "objectID": "index.html#lecture-1-22-november-2024",
-    "href": "index.html#lecture-1-22-november-2024",
-    "title": "STA 315 2.0 Essential Skills in Statistics",
-    "section": "Lecture 1: 22 November 2024",
-    "text": "Lecture 1: 22 November 2024\nSlides 1"
+    "objectID": "Week8/index.html#question-3",
+    "href": "Week8/index.html#question-3",
+    "title": "Hypothesis Testing",
+    "section": "Question 3",
+    "text": "Question 3\nA wildlife researcher claims that the average height of one-week-old male elephants is higher than that of one-week-old female elephants at an orphanage. The researcher collected data from thirty one-week-old male elephants and thirty one-week-old female elephants in order to test this claim."
   },
   {
-    "objectID": "index.html#lecture-2-29-november-2024",
-    "href": "index.html#lecture-2-29-november-2024",
-    "title": "STA 315 2.0 Essential Skills in Statistics",
-    "section": "Lecture 2: 29 November 2024",
-    "text": "Lecture 2: 29 November 2024\nSlides 2"
+    "objectID": "Week8/index.html#data-set",
+    "href": "Week8/index.html#data-set",
+    "title": "Hypothesis Testing",
+    "section": "Data set",
+    "text": "Data set\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nmale\n1.70\n1.9\n2.8\n2.00\n2.10\n2.90\n2.20\n1.40\n1.70\n1.80\n2.60\n2.20\n2.20\n2.10\n1.70\n2.90\n2.2\n1.00\n2.40\n1.80\n1.50\n1.90\n1.50\n1.60\n1.70\n1.20\n2.40\n2.10\n1.40\n2.60\n\n\nfemale\n1.93\n1.2\n2.4\n2.38\n2.32\n2.19\n2.05\n1.44\n1.19\n1.12\n0.81\n1.29\n0.23\n3.67\n2.71\n0.38\n1.1\n1.03\n2.28\n1.42\n1.75\n1.47\n1.46\n2.87\n1.27\n3.02\n0.05\n2.08\n1.62\n1.72"
   },
   {
-    "objectID": "index.html#lecture-3-6-december-2024",
-    "href": "index.html#lecture-3-6-december-2024",
-    "title": "STA 315 2.0 Essential Skills in Statistics",
-    "section": "Lecture 3: 6 December 2024",
-    "text": "Lecture 3: 6 December 2024\nSlides 3"
+    "objectID": "Week8/index.html#question-4",
+    "href": "Week8/index.html#question-4",
+    "title": "Hypothesis Testing",
+    "section": "Question 4",
+    "text": "Question 4\nAs reported by a NEWS channel, the mean serum high density (HDL) cholesterol of female 20 - 29 years old is 53. A doctor claims that the HDL Cholesterol level of female 20 - 29 years old is greater than 53. He uses the following data, randomly gathered from 22 individuals.\n65, 47, 51, 54, 70, 55, 44, 48, 36, 53, 45, 34, 59, 45, 54, 50, 40, 60, 53, 53, 54, 55\nIt is known from past research that the distribution of the HDL cholesterol is normally distributed and the corresponding population variance is 81. Test the claim that the HDL level is greater than 53 at \\(\\alpha\\) = 0.01 level of significance."
   },
   {
-    "objectID": "index.html#lecture-4-13-december-2024",
-    "href": "index.html#lecture-4-13-december-2024",
-    "title": "STA 315 2.0 Essential Skills in Statistics",
-    "section": "Lecture 4: 13 December 2024",
-    "text": "Lecture 4: 13 December 2024\nSlides 4\nData: Access the dataset named srilanka_weekly_data using the app provided below.\nhttps://denguedatahub.shinyapps.io/denguedatahub/\nAssignment 1: denguedata visualisations"
+    "objectID": "Week8/index.html#question-5",
+    "href": "Week8/index.html#question-5",
+    "title": "Hypothesis Testing",
+    "section": "Question 5",
+    "text": "Question 5\nA chemist wants to measure the bias in a pH meter. She uses the meter to measure the pH in 14 neutral substances (pH=7) and obtains the data below.\n7.01, 7.04, 6.97, 7.00, 6.99, 6.97, 7.04, 7.04, 7.01, 7.00, 6.99, 7.04, 7.07, 6.97\nIs there sufficient evidence to support the claim that the pH meter is not correctly calibrated at the α = 0.05 level of significance?"
   },
   {
-    "objectID": "index.html#lecture-5-20-december-2024",
-    "href": "index.html#lecture-5-20-december-2024",
-    "title": "STA 315 2.0 Essential Skills in Statistics",
-    "section": "Lecture 5: 20 December 2024",
-    "text": "Lecture 5: 20 December 2024\nSlides 5\nAssignment 1 - Feedback - Students’ Answers"
-  },
-  {
-    "objectID": "index.html#lecture-6-3-january-2025",
-    "href": "index.html#lecture-6-3-january-2025",
-    "title": "STA 315 2.0 Essential Skills in Statistics",
-    "section": "Lecture 6: 3 January 2025",
-    "text": "Lecture 6: 3 January 2025\nSlides 6"
-  },
-  {
-    "objectID": "index.html#lecture-7-10-january-2025",
-    "href": "index.html#lecture-7-10-january-2025",
-    "title": "STA 315 2.0 Essential Skills in Statistics",
-    "section": "Lecture 7: 10 January 2025",
-    "text": "Lecture 7: 10 January 2025\nIn-class discussion problems"
-  },
-  {
-    "objectID": "index.html#lecture-8-17-january-2025",
-    "href": "index.html#lecture-8-17-january-2025",
-    "title": "STA 315 2.0 Essential Skills in Statistics",
-    "section": "Lecture 8: 17 January 2025",
-    "text": "Lecture 8: 17 January 2025\nMid-semester Examination (Lecture 1- Lecture 6)"
-  },
-  {
-    "objectID": "index.html#lecture-9-24-january-2025",
-    "href": "index.html#lecture-9-24-january-2025",
-    "title": "STA 315 2.0 Essential Skills in Statistics",
-    "section": "Lecture 9: 24 January 2025",
-    "text": "Lecture 9: 24 January 2025\nSlides 8\nCommon Errors Made by Students in STA 113 2.0 Descriptive Statistics: Key Essential Skills"
-  },
-  {
-    "objectID": "Week4/index.html#interpret-the-plot",
-    "href": "Week4/index.html#interpret-the-plot",
-    "title": "Time Series Analysis",
-    "section": "Interpret the plot",
-    "text": "Interpret the plot"
-  },
-  {
-    "objectID": "Week4/index.html#acf-plot-for-the-original-series",
-    "href": "Week4/index.html#acf-plot-for-the-original-series",
-    "title": "Time Series Analysis",
-    "section": "ACF plot for the original series",
-    "text": "ACF plot for the original series"
-  },
-  {
-    "objectID": "Week4/index.html#draw-the-acf-plot-of-the-following-time-series",
-    "href": "Week4/index.html#draw-the-acf-plot-of-the-following-time-series",
-    "title": "Time Series Analysis",
-    "section": "Draw the ACF plot of the following time series",
-    "text": "Draw the ACF plot of the following time series\n\n\n\n\n     Qtr1 Qtr2 Qtr3 Qtr4\n1992  443  410  420  532\n1993  433  421  410  512\n1994  449  381  423  531\n1995  426  408  416  520\n1996  409  398  398  507\n1997  432  398  406  526\n1998  428  397  403  517\n1999  435  383  424  521\n2000  421  402  414  500\n2001  451  380  416  492\n2002  428  408  406  506\n2003  435  380  421  490\n2004  435  390  412  454\n2005  416  403  408  482\n2006  438  386  405  491\n2007  427  383  394  473\n2008  420  390  410  488\n2009  415  398  419  488\n2010  414  374"
-  },
-  {
-    "objectID": "Week4/index.html#simple-forecasting-methods",
-    "href": "Week4/index.html#simple-forecasting-methods",
-    "title": "Time Series Analysis",
-    "section": "Simple forecasting methods",
-    "text": "Simple forecasting methods\n\nAverage method\ndrift method\nnaive forecast\nsnaive forecast"
-  },
-  {
-    "objectID": "Week4/index.html#sarima-models",
-    "href": "Week4/index.html#sarima-models",
-    "title": "Time Series Analysis",
-    "section": "(S)ARIMA models",
-    "text": "(S)ARIMA models\n\nAR models\nMA models\nARMA models\nARIMA models\nSARIMA models"
-  },
-  {
-    "objectID": "Week4/index.html#what-are-the-key-steps-involved-in-fitting-an-sarima-model-to-a-time-series-data-and-how-do-you-evaluate-the-models-performancemodels",
-    "href": "Week4/index.html#what-are-the-key-steps-involved-in-fitting-an-sarima-model-to-a-time-series-data-and-how-do-you-evaluate-the-models-performancemodels",
-    "title": "Time Series Analysis",
-    "section": "What are the key steps involved in fitting an (S)ARIMA model to a time series data, and how do you evaluate the model’s performance?models",
-    "text": "What are the key steps involved in fitting an (S)ARIMA model to a time series data, and how do you evaluate the model’s performance?models"
-  },
-  {
-    "objectID": "Week6/index.html#how-do-we-estimate-f",
-    "href": "Week6/index.html#how-do-we-estimate-f",
-    "title": "Linear Regression Analysis",
-    "section": "How do we estimate \\(f\\)?",
-    "text": "How do we estimate \\(f\\)?\nNon-parametric methods:\nestimate \\(f\\) using observed data without making explicit assumptions about the functional form of \\(f\\).\nParametric methods\nestimate \\(f\\) using observed data by making assumptions about the functional form of \\(f\\).\nEx: \\(Y = \\beta_0 + \\beta_1x_1 + \\beta_2x_2 + \\beta_3x_3 + \\epsilon\\)\nbackground-image: url(‘regressionpaper2.png’) background-position: center background-size: contain"
-  },
-  {
-    "objectID": "Week6/index.html#do-not-under-estimate-the-power-of-simple-models.",
-    "href": "Week6/index.html#do-not-under-estimate-the-power-of-simple-models.",
-    "title": "Linear Regression Analysis",
-    "section": "Do not under-estimate the power of simple models.",
-    "text": "Do not under-estimate the power of simple models."
+    "objectID": "Week8/index.html#question-6",
+    "href": "Week8/index.html#question-6",
+    "title": "Hypothesis Testing",
+    "section": "Question 6",
+    "text": "Question 6\nA dietician hopes to reduce a person’s cholesterol level by using a special diet supplemented with a combination of vitamin pills. Twenty (20) subjects were pre-tested and then placed on diet for two weeks. Their cholesterol levels were checked after the two week period. The results are shown below. Cholesterol levels are measured in milligrams per decilitre.\nbefore: 210, 235, 208, 190, 172, 244, 211, 235, 210, 190, 175, 250, 200, 270, 222, 203, 209, 220, 250, 280)\nafter: 190, 170, 210, 188, 173, 195, 228, 200, 210, 184, 196, 208, 211, 212, 205, 221, 240, 250, 230, 220\nTest the claim that the Cholesterol level before the special diet is greater than the Cholesterol level after the special diet at α = 0.01 level of significance."
   }
 ]

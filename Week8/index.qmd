@@ -231,3 +231,6 @@ after: 190, 170, 210, 188, 173, 195, 228, 200, 210, 184,
 
 Test the claim that the Cholesterol level before the special diet is greater than the Cholesterol level
 after the special diet at α = 0.01 level of significance.
+
+
+

@@ -1,0 +1,58 @@
+---
+title: "Hypothesis Testing"
+subtitle: ""
+author: "Dr. Thiyanga S. Talagala <br/>  Department of Statistics, Faculty of Applied Sciences <br/> University of Sri Jayewardenepura, Sri Lanka"
+format:
+  revealjs:
+    css:
+        - "custom.css"
+    width: 1600
+    height: 900
+    margin: 0.1
+    theme: simple
+    transition: slide
+    background-transition: fade
+    slide-number: true
+    show-slide-number: all
+    title-slide-attributes: 
+      data-background-color: "#081d58"
+      data-background-image: none
+---
+
+
+# Which hypothesis test to perform?
+
+in-class explanations
+
+---
+
+## Question 1
+
+In a glaucoma study, intraocular pressure (IOP) values (in mm Hg) were recorded from a sample of 21 elderly subjects. The sample had the following characteristics:
+
+$$n= 21$$
+$$\bar{x}= 15.2 \text{mm Hg}$$
+ $$s = 3.1 \text{mm Hg}$$
+At a significance level of 0.05, can we conclude that the mean intraocular pressure of the population differs from 14 mm Hg? Perform a hypothesis test to determine the answer.
+
+## Question 2
+
+A market research company conducted a survey to investigate whether the type of beverage ordered with dinner at a restaurant independent of the age of the consumer. A random poll of 240 lunch customers is taken, resulting in the following contingency table of observed values. Can you conclude that the type of beverage ordered is independent of age? 
+	
+```{r}
+knitr::include_graphics("tab1.png")
+```
+
+## Question 3
+
+A researcher wants to determine whether there is a significant difference in mean intraocular pressure (IOP) among three age groups of elderly subjects. The following data represent the recorded IOP values (in mm Hg) for each group:
+
+Recorded IOP Values (mm Hg) for Each Age Group:
+
+Group 1 (Age 60-65): 14, 15, 13, 16, 15, 14, 17, 16, 13, 15
+
+Group 2 (Age 66-70): 17, 16, 15, 18, 14, 17, 16, 15, 19, 14, 18, 17
+
+Group 3 (Age 71-75): 13, 12, 14, 15, 13, 12, 16, 14, 15, 13, 14
+
+At a 0.05 significance level, can we conclude that the mean intraocular pressure differs among the three age groups?

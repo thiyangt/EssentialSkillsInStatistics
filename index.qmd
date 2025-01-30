@@ -52,9 +52,12 @@ Assignment 1 - Feedback - [Students' Answers](/Feedback/f1.pdf)
 
 Mid-semester Examination (Lecture 1- Lecture 6)
 
-
 ## Lecture 9: 24 January 2025
 
 [Slides 8](/Week8/index.html)
 
 Common Errors Made by Students in STA 113 2.0 Descriptive Statistics: Key Essential Skills
+
+## Lecture 10: 31 January 2025
+
+[Slides 9](/Week9/index.html)
