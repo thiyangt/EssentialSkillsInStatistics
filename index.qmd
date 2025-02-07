@@ -61,3 +61,7 @@ Common Errors Made by Students in STA 113 2.0 Descriptive Statistics: Key Essent
 ## Lecture 10: 31 January 2025
 
 [Slides 9](/Week9/index.html)
+
+## Lecture 11: 7 February 2025
+
+[Design and Analysis of Experiments](/Week11/DOE.pdf)
