@@ -114,17 +114,17 @@ format:
 ## Data Visualization
 
 
-ggplot2 
+- ggplot2 
 
-patchwork
+- patchwork
 
-ggthemes
+- ggthemes
 
-plotly
+- plotly
 
-leaflet
+- leaflet
 
-ggridges
+- ggridges
 
 ## Machine Learning and Modelling
 
@@ -145,3 +145,41 @@ ggridges
 - keras 
 
 ## Time Series Analysis & Forecasting
+
+- tsibble
+
+- fable 
+
+- prophet
+
+- timetk 
+
+## Text Mining & Natural Language Processing (NLP)
+
+- tm
+
+- tidytext 
+
+- quanteda 
+
+- udpipe
+
+- textrecipes 
+
+## Web scrapping and APIs in R
+
+- rvest 
+
+- httr 
+
+- jsonlite 
+
+
+## Reproducible Reporting & Dashboards in R.
+
+- Quarto 
+- rmarkdown 
+- knitr 
+- flexdashboard 
+- shiny 
+- gt 

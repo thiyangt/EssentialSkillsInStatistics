@@ -697,7 +697,7 @@
     "href": "Week13/index.html#data-visualization",
     "title": "Emerging trends and technologies in statistics",
     "section": "Data Visualization",
-    "text": "Data Visualization\nggplot2\npatchwork\nggthemes\nplotly\nleaflet\nggridges"
+    "text": "Data Visualization\n\nggplot2\npatchwork\nggthemes\nplotly\nleaflet\nggridges"
   },
   {
     "objectID": "Week13/index.html#machine-learning-and-modelling",
@@ -711,6 +711,27 @@
     "href": "Week13/index.html#time-series-analysis-forecasting",
     "title": "Emerging trends and technologies in statistics",
     "section": "Time Series Analysis & Forecasting",
-    "text": "Time Series Analysis & Forecasting"
+    "text": "Time Series Analysis & Forecasting\n\ntsibble\nfable\nprophet\ntimetk"
+  },
+  {
+    "objectID": "Week13/index.html#text-mining-natural-language-processing-nlp",
+    "href": "Week13/index.html#text-mining-natural-language-processing-nlp",
+    "title": "Emerging trends and technologies in statistics",
+    "section": "Text Mining & Natural Language Processing (NLP)",
+    "text": "Text Mining & Natural Language Processing (NLP)\n\ntm\ntidytext\nquanteda\nudpipe\ntextrecipes"
+  },
+  {
+    "objectID": "Week13/index.html#web-scrapping-and-apis-in-r",
+    "href": "Week13/index.html#web-scrapping-and-apis-in-r",
+    "title": "Emerging trends and technologies in statistics",
+    "section": "Web scrapping and APIs in R",
+    "text": "Web scrapping and APIs in R\n\nrvest\nhttr\njsonlite"
+  },
+  {
+    "objectID": "Week13/index.html#reproducible-reporting-dashboards-in-r.",
+    "href": "Week13/index.html#reproducible-reporting-dashboards-in-r.",
+    "title": "Emerging trends and technologies in statistics",
+    "section": "Reproducible Reporting & Dashboards in R.",
+    "text": "Reproducible Reporting & Dashboards in R.\n\nQuarto\nrmarkdown\nknitr\nflexdashboard\nshiny\ngt"
   }
 ]
