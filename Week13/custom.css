@@ -1,0 +1,15 @@
+
+/* Increase font size for all slide content */
+.reveal .slides {
+    font-size: 48px;
+}
+
+/* Increase font size for paragraph text */
+.reveal p {
+    font-size: 80px;
+}
+
+/* Increase font size for list items */
+.reveal ul, .reveal ol {
+    font-size: 80px;
+}

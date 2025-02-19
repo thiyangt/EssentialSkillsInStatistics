@@ -1,0 +1,147 @@
+---
+title: "Emerging trends and technologies in statistics"
+subtitle: ""
+author: "Dr. Thiyanga S. Talagala <br/>  Department of Statistics, Faculty of Applied Sciences <br/> University of Sri Jayewardenepura, Sri Lanka"
+format:
+  revealjs:
+    css:
+        - "custom.css"
+    width: 1600
+    height: 900
+    margin: 0.1
+    theme: simple
+    transition: slide
+    incremental: true
+    background-transition: fade
+    slide-number: true
+    show-slide-number: all
+    title-slide-attributes: 
+      data-background-color: "#081d58"
+      data-background-image: none
+---
+
+# Must-know technologies and tools
+
+## Programming Languages
+
+::: incremental
+-   Python
+-   R
+-   Julia
+-   SQL
+:::
+
+# Python
+
+## Python IDEs for Data Science
+
+::: incremental
+-   Jupyter Notebook
+
+-   VS Code
+
+-   PyCharm
+
+-   Google Colab
+:::
+
+## Python Data Wrangling Libraries
+
+-   pandas
+
+-   numpy
+
+-   polars
+
+-   dask
+
+-   pyjanitor
+
+## Data Visualization Libraries
+
+-   matplotlib
+
+-   seaborn
+
+-   plotly
+
+-   altair
+
+-   folium
+
+-   plotnine
+
+## Statistics Libraries
+
+- scipy.stats 
+
+- statsmodels
+
+- sympy
+
+## Machine Learning Libraries
+
+- scikit-learn 
+
+- XGBoost / LightGBM 
+
+- TensorFlow / Keras
+
+- PyTorch 
+
+- CatBoost 
+
+
+## Python Web Development Frameworks
+
+- django
+
+- Flask/ FastAPI
+
+# R
+
+## Essential R Libraries 
+
+- tidyverse
+
+- janitor
+
+- lubridate
+
+- data.table
+
+
+## Data Visualization
+
+
+ggplot2 
+
+patchwork
+
+ggthemes
+
+plotly
+
+leaflet
+
+ggridges
+
+## Machine Learning and Modelling
+
+- caret 
+
+- tidymodels
+
+- randomForest
+
+- xgboost 
+
+- lightgbm 
+
+- glmnet 
+
+- rpart 
+
+- keras 
+
+## Time Series Analysis & Forecasting

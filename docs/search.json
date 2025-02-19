@@ -600,5 +600,117 @@
     "title": "Hypothesis Testing",
     "section": "Question 6",
     "text": "Question 6\nA dietician hopes to reduce a person’s cholesterol level by using a special diet supplemented with a combination of vitamin pills. Twenty (20) subjects were pre-tested and then placed on diet for two weeks. Their cholesterol levels were checked after the two week period. The results are shown below. Cholesterol levels are measured in milligrams per decilitre.\nbefore: 210, 235, 208, 190, 172, 244, 211, 235, 210, 190, 175, 250, 200, 270, 222, 203, 209, 220, 250, 280)\nafter: 190, 170, 210, 188, 173, 195, 228, 200, 210, 184, 196, 208, 211, 212, 205, 221, 240, 250, 230, 220\nTest the claim that the Cholesterol level before the special diet is greater than the Cholesterol level after the special diet at α = 0.01 level of significance."
+  },
+  {
+    "objectID": "Week13/index.html#programming-languages",
+    "href": "Week13/index.html#programming-languages",
+    "title": "Emerging trends and technologies in statistics",
+    "section": "Programming Languages",
+    "text": "Programming Languages\n\n\nPython\nR\nJulia\nSQL"
+  },
+  {
+    "objectID": "Week13/index.html#python",
+    "href": "Week13/index.html#python",
+    "title": "Emerging trends and technologies in statistics",
+    "section": "1. Python",
+    "text": "1. Python"
+  },
+  {
+    "objectID": "Week13/index.html#r",
+    "href": "Week13/index.html#r",
+    "title": "Emerging trends and technologies in statistics",
+    "section": "2. R",
+    "text": "2. R"
+  },
+  {
+    "objectID": "Week13/index.html#sql",
+    "href": "Week13/index.html#sql",
+    "title": "Emerging trends and technologies in statistics",
+    "section": "3. SQL",
+    "text": "3. SQL"
+  },
+  {
+    "objectID": "Week13/index.html#julia",
+    "href": "Week13/index.html#julia",
+    "title": "Emerging trends and technologies in statistics",
+    "section": "4. Julia",
+    "text": "4. Julia"
+  },
+  {
+    "objectID": "Week13/index.html#python-ides-for-data-science",
+    "href": "Week13/index.html#python-ides-for-data-science",
+    "title": "Emerging trends and technologies in statistics",
+    "section": "Python IDEs for Data Science",
+    "text": "Python IDEs for Data Science\n\n\nJupyter Notebook\nVS Code\nPyCharm\nGoogle Colab"
+  },
+  {
+    "objectID": "Week13/index.html#python-data-wrangling-libraries",
+    "href": "Week13/index.html#python-data-wrangling-libraries",
+    "title": "Emerging trends and technologies in statistics",
+    "section": "Python Data Wrangling Libraries",
+    "text": "Python Data Wrangling Libraries\n\npandas\nnumpy\npolars\ndask\npyjanitor"
+  },
+  {
+    "objectID": "Week13/index.html#data-visualization-libraries",
+    "href": "Week13/index.html#data-visualization-libraries",
+    "title": "Emerging trends and technologies in statistics",
+    "section": "Data Visualization Libraries",
+    "text": "Data Visualization Libraries\n\nmatplotlib\nseaborn\nplotly\naltair\nfolium\nplotnine"
+  },
+  {
+    "objectID": "Week13/index.html#machine-learning-libraries",
+    "href": "Week13/index.html#machine-learning-libraries",
+    "title": "Emerging trends and technologies in statistics",
+    "section": "Machine Learning Libraries",
+    "text": "Machine Learning Libraries\n\nscikit-learn\nXGBoost / LightGBM\nTensorFlow / Keras\nPyTorch\nCatBoost"
+  },
+  {
+    "objectID": "Week13/index.html#statistics-libraries",
+    "href": "Week13/index.html#statistics-libraries",
+    "title": "Emerging trends and technologies in statistics",
+    "section": "Statistics Libraries",
+    "text": "Statistics Libraries\n\nscipy.stats\nstatsmodels\nsympy"
+  },
+  {
+    "objectID": "Week13/index.html#python-web-development-frameworks",
+    "href": "Week13/index.html#python-web-development-frameworks",
+    "title": "Emerging trends and technologies in statistics",
+    "section": "Python Web Development Frameworks",
+    "text": "Python Web Development Frameworks\n\ndjango\nFlask/ FastAPI"
+  },
+  {
+    "objectID": "Week13/index.html#essential-r-libraries-for-data-science",
+    "href": "Week13/index.html#essential-r-libraries-for-data-science",
+    "title": "Emerging trends and technologies in statistics",
+    "section": "Essential R Libraries for Data Science",
+    "text": "Essential R Libraries for Data Science\n\ntidyverse\ntidyverts"
+  },
+  {
+    "objectID": "Week13/index.html#essential-r-libraries",
+    "href": "Week13/index.html#essential-r-libraries",
+    "title": "Emerging trends and technologies in statistics",
+    "section": "Essential R Libraries",
+    "text": "Essential R Libraries\n\ntidyverse\njanitor\nlubridate\ndata.table"
+  },
+  {
+    "objectID": "Week13/index.html#data-visualization",
+    "href": "Week13/index.html#data-visualization",
+    "title": "Emerging trends and technologies in statistics",
+    "section": "Data Visualization",
+    "text": "Data Visualization\nggplot2\npatchwork\nggthemes\nplotly\nleaflet\nggridges"
+  },
+  {
+    "objectID": "Week13/index.html#machine-learning-and-modelling",
+    "href": "Week13/index.html#machine-learning-and-modelling",
+    "title": "Emerging trends and technologies in statistics",
+    "section": "Machine Learning and Modelling",
+    "text": "Machine Learning and Modelling\n\ncaret\ntidymodels\nrandomForest\nxgboost\nlightgbm\nglmnet\nrpart\nkeras"
+  },
+  {
+    "objectID": "Week13/index.html#time-series-analysis-forecasting",
+    "href": "Week13/index.html#time-series-analysis-forecasting",
+    "title": "Emerging trends and technologies in statistics",
+    "section": "Time Series Analysis & Forecasting",
+    "text": "Time Series Analysis & Forecasting"
   }
 ]
