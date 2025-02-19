@@ -65,3 +65,9 @@ Common Errors Made by Students in STA 113 2.0 Descriptive Statistics: Key Essent
 ## Lecture 11: 7 February 2025
 
 [Design and Analysis of Experiments](/Week11/DOE.pdf)
+
+## Lecture 12: 14 February 2025
+
+Kaggle Class Competition
+
+## Lecture 13: 21 February 2025
