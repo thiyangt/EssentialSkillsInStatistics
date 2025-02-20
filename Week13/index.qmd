@@ -1,5 +1,5 @@
 ---
-title: "Emerging trends and technologies in statistics"
+title: "Emerging  technologies ad trends in statistics"
 subtitle: ""
 author: "Dr. Thiyanga S. Talagala <br/>  Department of Statistics, Faculty of Applied Sciences <br/> University of Sri Jayewardenepura, Sri Lanka"
 format:
@@ -91,11 +91,15 @@ format:
 
 -   CatBoost
 
-## Python Web Development Frameworks
+## Python Web Development Frameworks/ MLOps & Model Deployment
 
 -   django
 
 -   Flask/ FastAPI
+
+- Docker 
+
+- Kubernetes
 
 # R
 
@@ -182,12 +186,67 @@ format:
 
 ## Spatial Data Analysis in R
 
-- sf 
+-   sf
 
-- sp 
+-   sp
 
-- raster 
+-   raster
 
-- tmap 
+-   tmap
 
-- terra
+-   terra
+
+# Good to know
+
+## Cloud Computing & Big Data Technologies
+
+- Google Cloud Platform (GCP)
+
+- Amazon Web Services (AWS)
+
+- Microsoft Azure
+
+- Hadoop & Apache Spark 
+
+
+## Databases & Data Engineering
+
+- SQL Databases – PostgreSQL, MySQL, SQLite
+
+- NoSQL Databases – MongoDB, Cassandra
+
+- Data Warehouses – Snowflake, BigQuery, Redshift.
+
+
+
+## Pre-trained Classification Models
+
+- VGG 16
+
+- YOLO (You Only Look Once) 
+
+- TensorFlow Hub 
+
+- Torchvision Models (PyTorch)
+
+- Vision Transformer (ViT) 
+
+# Trends
+
+##
+
+- Explainable AI (XAI) and Interpretable Machine Learning
+
+- Federated Learning and Privacy-Preserving Analytics
+
+- Deep Generative Models (DGMs)
+
+- Real-Time and Streaming Data Analytics
+
+- Automated Machine Learning
+
+- Causal Inference & Uplift Modeling
+
+# The Future of Statistics & AI
+
+These trends highlight a shift toward trustworthy, scalable, and responsible AI.
