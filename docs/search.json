@@ -733,5 +733,12 @@
     "title": "Emerging trends and technologies in statistics",
     "section": "Reproducible Reporting & Dashboards in R.",
     "text": "Reproducible Reporting & Dashboards in R.\n\nQuarto\nrmarkdown\nknitr\nflexdashboard\nshiny\ngt"
+  },
+  {
+    "objectID": "Week13/index.html#spatial-data-analysis-in-r",
+    "href": "Week13/index.html#spatial-data-analysis-in-r",
+    "title": "Emerging trends and technologies in statistics",
+    "section": "Spatial Data Analysis in R",
+    "text": "Spatial Data Analysis in R\n\nsf\nsp\nraster\ntmap\nterra"
   }
 ]

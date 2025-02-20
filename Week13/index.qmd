@@ -73,113 +73,121 @@ format:
 
 ## Statistics Libraries
 
-- scipy.stats 
+-   scipy.stats
 
-- statsmodels
+-   statsmodels
 
-- sympy
+-   sympy
 
 ## Machine Learning Libraries
 
-- scikit-learn 
+-   scikit-learn
 
-- XGBoost / LightGBM 
+-   XGBoost / LightGBM
 
-- TensorFlow / Keras
+-   TensorFlow / Keras
 
-- PyTorch 
+-   PyTorch
 
-- CatBoost 
-
+-   CatBoost
 
 ## Python Web Development Frameworks
 
-- django
+-   django
 
-- Flask/ FastAPI
+-   Flask/ FastAPI
 
 # R
 
-## Essential R Libraries 
+## Essential R Libraries
 
-- tidyverse
+-   tidyverse
 
-- janitor
+-   janitor
 
-- lubridate
+-   lubridate
 
-- data.table
-
+-   data.table
 
 ## Data Visualization
 
+-   ggplot2
 
-- ggplot2 
+-   patchwork
 
-- patchwork
+-   ggthemes
 
-- ggthemes
+-   plotly
 
-- plotly
+-   leaflet
 
-- leaflet
-
-- ggridges
+-   ggridges
 
 ## Machine Learning and Modelling
 
-- caret 
+-   caret
 
-- tidymodels
+-   tidymodels
 
-- randomForest
+-   randomForest
 
-- xgboost 
+-   xgboost
 
-- lightgbm 
+-   lightgbm
 
-- glmnet 
+-   glmnet
 
-- rpart 
+-   rpart
 
-- keras 
+-   keras
 
 ## Time Series Analysis & Forecasting
 
-- tsibble
+-   tsibble
 
-- fable 
+-   fable
 
-- prophet
+-   prophet
 
-- timetk 
+-   timetk
 
 ## Text Mining & Natural Language Processing (NLP)
 
-- tm
+-   tm
 
-- tidytext 
+-   tidytext
 
-- quanteda 
+-   quanteda
 
-- udpipe
+-   udpipe
 
-- textrecipes 
+-   textrecipes
 
 ## Web scrapping and APIs in R
 
-- rvest 
+-   rvest
 
-- httr 
+-   httr
 
-- jsonlite 
-
+-   jsonlite
 
 ## Reproducible Reporting & Dashboards in R.
 
-- Quarto 
-- rmarkdown 
-- knitr 
-- flexdashboard 
-- shiny 
-- gt 
+-   Quarto
+-   rmarkdown
+-   knitr
+-   flexdashboard
+-   shiny
+-   gt
+
+## Spatial Data Analysis in R
+
+- sf 
+
+- sp 
+
+- raster 
+
+- tmap 
+
+- terra
