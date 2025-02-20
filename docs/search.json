@@ -77,18 +77,137 @@
     "text": "What are the key steps involved in fitting an (S)ARIMA model to a time series data, and how do you evaluate the model’s performance?models"
   },
   {
-    "objectID": "Week10/index.html",
-    "href": "Week10/index.html",
-    "title": "Question 1",
-    "section": "",
-    "text": "Question 1\n\nName the three basic principles in experimental design.\nWhy is replication important in experimental design?\nWhat is the main purpose for using randomization in an experiment?\n\nWater flow velocities have been suspected to affect the growth of fish species like California halibut (Paralichthys californicus). The California halibut (Paralichthys californicus) is an economically important flatfish species of Southern California in the USA. A study was carried out to test the effect of three relative water velocities of 0.5, 1.0, and 1.5 on the gain of bodyweight of California halibut over a period of 10 weeks. Nine rectangular tanks filled with fifteen (15) California halibut fish each were given to set the velocities to be tested. All the fish were of the same age, same weight, and same health status. Furthermore, all fish were fed the same food. All experimental tanks are the same in length, width, and depth. All tanks receive the same environmental conditions. Three experimental tanks were randomly assigned to each velocity. The experiment was fully randomized. After 10 weeks, the body weight of each fish was measured. Each fish was individually weighted and immediately returned to its respective experimental tank. \n\nWrite the following with reference to this experiment.\n\nExperimental unit\nObservation unit\nFactor/ Factors tested\nFactor levels\nTreatments tested\nResponse variable\nHow many replicates are there for each treatment?\n\nIf you do this experiment, how would you employ randomization?\nWrite the most suitable statistical model for the experiment. Define all terms in it and state any assumptions you make regarding the model.\n\n\n\nQuestion 2\nAn experiment was performed to determine the effect of four different chemicals on the strength of a fabric. These chemicals are used as part of the design printing process. Five different fabric samples were selected. The experiment was carried out by testing each chemical type on each fabric sample once in a random order. The data is shown in the table below.\nThese data were given to two students separately and asked to construct the ANOVA table to analyze. The results obtained by them are given below. Some values were missing in each ANOVA table and marked with a blank space (…).\n\nComplete each ANOVA table below (Copy the tables below in your answer script and complete it.)\n\nResults of the first student\n\n\n\n\n\nSource\nDF\nSS\nMS\nF\nP\n\n\n\n\nChemical type\n…\n…\n…\n…\n0.000\n\n\nError\n…\n219.6\n…\n\n\n\n\nTotal\n…\n623\n\n\n\n\n\n\n\n\nResults of the second student\n\n\n\n\n\nSource\nDF\nSS\nMS\nF\nP\n\n\n\n\nChemical type\n…\n…\n…\n…\n0.000\n\n\nFabric sample\n…\n124.2\n…\n…\n0.029\n\n\nError\n…\n95.4\n…\n\n\n\n\nTotal\n…\n623\n\n\n\n\n\n\n\n\n\nState the differences between the two approaches the two students had applied.\nOne student has obtained the following graph. Comment on it.\n\n\n\n\n\n\n\n\n\n\n\nWhat is the best approach (first student approach or second student approach)? Justify your answer.\nWrite the effect model for the selected approach in part (iv) and define all the terms of it.\nWrite the hypothesis of the selected model to test the equality of treatment means and state your decision and conclusion. (No need to do multiple comparisons.)\n\n\n\nQuestion 3\nTwenty four (24) pieces of metal pipes were chosen for an experiment to examine if the quantity of corrosion is affected by the coating type or the soil type. The experiment uses two different coating types and three different soil types. Each metal item is coated with one of the two coatings and buried for a specific amount of time in one of the three types of soil, after which the quantity of corrosion is calculated. The data obtained is presented in the table below.\n\nHow many treatment combinations are tested in this experiment? What are they?\nThe mean plot of the above data is given below. Comment on it.\n\n\n\n\n\n\n\n\n\n\n\nWrite a suitable effect model for the experiment and state the hypotheses to be tested.\nANOVA table for the above experiment is given below. State your conclusions. Assume that the assumptions of the model are not violated.\n\n\n\nAnalysis of Variance Table\n\nResponse: corrosion_amount\n                       Df  Sum Sq Mean Sq F value   Pr(&gt;F)   \nsoil_type               2  95.583  47.792  5.4532 0.014076 * \ncoating_type            1 100.042 100.042 11.4152 0.003346 **\nsoil_type:coating_type  2  67.583  33.792  3.8558 0.040392 * \nResiduals              18 157.750   8.764                    \n---\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n\n\n\nFor further investigation, the Tukey multiple comparison tests were performed. The results are given below. Comment on the results and what should you recommend to reduce the amount of corrosion (give reasons for your answer)?\n\n\n\n  Tukey multiple comparisons of means\n    95% family-wise confidence level\n\nFit: aov(formula = corrosion_amount ~ soil_type * coating_type, data = q3)\n\n$soil_type\n      diff        lwr      upr     p adj\n2-1  4.750  0.9723052 8.527695 0.0128436\n3-1  3.375 -0.4026948 7.152695 0.0846412\n3-2 -1.375 -5.1526948 2.402695 0.6295541\n\n$coating_type\n        diff      lwr     upr     p adj\n2-1 4.083333 1.544216 6.62245 0.0033461\n\n$`soil_type:coating_type`\n         diff         lwr       upr     p adj\n2:1-1:1  4.00  -2.6526105 10.652611 0.4272548\n3:1-1:1 -0.50  -7.1526105  6.152611 0.9998730\n1:2-1:1  1.00  -5.6526105  7.652611 0.9963915\n2:2-1:1  6.50  -0.1526105 13.152611 0.0577047\n3:2-1:1  8.25   1.5973895 14.902611 0.0104439\n3:1-2:1 -4.50 -11.1526105  2.152611 0.3071941\n1:2-2:1 -3.00  -9.6526105  3.652611 0.7076774\n2:2-2:1  2.50  -4.1526105  9.152611 0.8338901\n3:2-2:1  4.25  -2.4026105 10.902611 0.3643703\n1:2-3:1  1.50  -5.1526105  8.152611 0.9773677\n2:2-3:1  7.00   0.3473895 13.652611 0.0358934\n3:2-3:1  8.75   2.0973895 15.402611 0.0063084\n2:2-1:2  5.50  -1.1526105 12.152611 0.1409369\n3:2-1:2  7.25   0.5973895 13.902611 0.0281668\n3:2-2:2  1.75  -4.9026105  8.402611 0.9566132\n\n\n\n\nQuestion 4\nA materials science engineer is investigating the effects of four different catalysts (A, B, C, and D) on the reaction time of a chemical process. Each batch of new material is only large enough to permit four runs to be made. Furthermore, four lab assistants were selected for the study. To account for the source of variability due to batch and lab assistant, the engineer uses the Latin square design shown below.\n\nIs this a standard Latin square design? Give reasons for your answer.\n\nCont. page 6\n\n\nANOVA table for the above experiment is given below. Write the model corresponding to the ANOVA. Define all terms in it. State any assumptions you make regarding the model.\n\n\n\nAnalysis of Variance Table\n\nResponse: Time\n              Df  Sum Sq Mean Sq F value    Pr(&gt;F)    \nBatch          3 143.187  47.729 27.6024 0.0006573 ***\nLab_assistant  3  12.188   4.063  2.3494 0.1717719    \nCatalyst       3  72.188  24.063 13.9157 0.0041308 ** \nResiduals      6  10.375   1.729                      \n---\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n\n\n\nBriefly explain how you check the validity of the model assumptions.\nAssume that the estimated model in part (ii) satisfied all of the assumptions made regarding the error term. What conclusions can be drawn from the results of ANOVA table. You should clearly write the corresponding hypotheses, decision and conclusions.\nWrite one advantage and one disadvantage of a Latin square design."
+    "objectID": "Week13/index.html#programming-languages",
+    "href": "Week13/index.html#programming-languages",
+    "title": "Emerging trends and technologies in Statistics and Data Science",
+    "section": "Programming Languages",
+    "text": "Programming Languages\n\n\nPython\nR\nJulia"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "STA 315 2.0 Essential Skills in Statistics",
+    "objectID": "Week13/index.html#python-ides",
+    "href": "Week13/index.html#python-ides",
+    "title": "Emerging trends and technologies in Statistics and Data Science",
+    "section": "Python IDEs",
+    "text": "Python IDEs\n\n\nJupyter Notebook\nVS Code\nPyCharm\nGoogle Colab"
+  },
+  {
+    "objectID": "Week13/index.html#python-data-wrangling-libraries",
+    "href": "Week13/index.html#python-data-wrangling-libraries",
+    "title": "Emerging trends and technologies in Statistics and Data Science",
+    "section": "Python Data Wrangling Libraries",
+    "text": "Python Data Wrangling Libraries\n\npandas\nnumpy\npolars\ndask\npyjanitor"
+  },
+  {
+    "objectID": "Week13/index.html#python-data-visualization-libraries",
+    "href": "Week13/index.html#python-data-visualization-libraries",
+    "title": "Emerging trends and technologies in Statistics and Data Science",
+    "section": "Python Data Visualization Libraries",
+    "text": "Python Data Visualization Libraries\n\nmatplotlib\nseaborn\nplotly\naltair\nfolium\nplotnine"
+  },
+  {
+    "objectID": "Week13/index.html#python-statistics-libraries",
+    "href": "Week13/index.html#python-statistics-libraries",
+    "title": "Emerging trends and technologies in Statistics and Data Science",
+    "section": "Python Statistics Libraries",
+    "text": "Python Statistics Libraries\n\nscipy.stats\nstatsmodels\nsympy"
+  },
+  {
+    "objectID": "Week13/index.html#python-machine-learning-libraries",
+    "href": "Week13/index.html#python-machine-learning-libraries",
+    "title": "Emerging trends and technologies in Statistics and Data Science",
+    "section": "Python Machine Learning Libraries",
+    "text": "Python Machine Learning Libraries\n\nscikit-learn\nXGBoost / LightGBM\nTensorFlow / Keras\nPyTorch\nCatBoost"
+  },
+  {
+    "objectID": "Week13/index.html#python-web-development-frameworks-and-model-deployment",
+    "href": "Week13/index.html#python-web-development-frameworks-and-model-deployment",
+    "title": "Emerging trends and technologies in Statistics and Data Science",
+    "section": "Python Web Development Frameworks and Model Deployment",
+    "text": "Python Web Development Frameworks and Model Deployment\n\ndjango\nFlask/ FastAPI\nDocker\nKubernetes"
+  },
+  {
+    "objectID": "Week13/index.html#essential-r-libraries",
+    "href": "Week13/index.html#essential-r-libraries",
+    "title": "Emerging trends and technologies in Statistics and Data Science",
+    "section": "Essential R Libraries",
+    "text": "Essential R Libraries\n\ntidyverse\njanitor\nlubridate\ndata.table"
+  },
+  {
+    "objectID": "Week13/index.html#r-data-visualization-packages",
+    "href": "Week13/index.html#r-data-visualization-packages",
+    "title": "Emerging trends and technologies in Statistics and Data Science",
+    "section": "R Data Visualization Packages",
+    "text": "R Data Visualization Packages\n\nggplot2\npatchwork\nggthemes\nplotly\nleaflet\nggridges"
+  },
+  {
+    "objectID": "Week13/index.html#r-machine-learning-and-modelling-packages",
+    "href": "Week13/index.html#r-machine-learning-and-modelling-packages",
+    "title": "Emerging trends and technologies in Statistics and Data Science",
+    "section": "R Machine Learning and Modelling packages",
+    "text": "R Machine Learning and Modelling packages\n\ncaret\ntidymodels\nrandomForest\nxgboost\nlightgbm\nglmnet\nrpart\nkeras"
+  },
+  {
+    "objectID": "Week13/index.html#r-time-series-analysis-forecasting-packages",
+    "href": "Week13/index.html#r-time-series-analysis-forecasting-packages",
+    "title": "Emerging trends and technologies in Statistics and Data Science",
+    "section": "R Time Series Analysis & Forecasting Packages",
+    "text": "R Time Series Analysis & Forecasting Packages\n\ntsibble\nfable\nprophet\ntimetk"
+  },
+  {
+    "objectID": "Week13/index.html#r-text-mining-natural-language-processing-nlp-packages",
+    "href": "Week13/index.html#r-text-mining-natural-language-processing-nlp-packages",
+    "title": "Emerging trends and technologies in Statistics and Data Science",
+    "section": "R Text Mining & Natural Language Processing (NLP) Packages",
+    "text": "R Text Mining & Natural Language Processing (NLP) Packages\n\ntm\ntidytext\nquanteda\nudpipe\ntextrecipes"
+  },
+  {
+    "objectID": "Week13/index.html#web-scrapping-and-apis-in-r",
+    "href": "Week13/index.html#web-scrapping-and-apis-in-r",
+    "title": "Emerging trends and technologies in Statistics and Data Science",
+    "section": "Web scrapping and APIs in R",
+    "text": "Web scrapping and APIs in R\n\nrvest\nhttr\njsonlite"
+  },
+  {
+    "objectID": "Week13/index.html#reproducible-reporting-dashboards-in-r.",
+    "href": "Week13/index.html#reproducible-reporting-dashboards-in-r.",
+    "title": "Emerging trends and technologies in Statistics and Data Science",
+    "section": "Reproducible Reporting & Dashboards in R.",
+    "text": "Reproducible Reporting & Dashboards in R.\n\nQuarto\nrmarkdown\nknitr\nflexdashboard\nshiny\ngt"
+  },
+  {
+    "objectID": "Week13/index.html#spatial-data-analysis-in-r",
+    "href": "Week13/index.html#spatial-data-analysis-in-r",
+    "title": "Emerging trends and technologies in Statistics and Data Science",
+    "section": "Spatial Data Analysis in R",
+    "text": "Spatial Data Analysis in R\n\nsf\nsp\nraster\ntmap\nterra\ngstat"
+  },
+  {
+    "objectID": "Week13/index.html#cloud-computing-big-data-technologies",
+    "href": "Week13/index.html#cloud-computing-big-data-technologies",
+    "title": "Emerging trends and technologies in Statistics and Data Science",
+    "section": "Cloud Computing & Big Data Technologies",
+    "text": "Cloud Computing & Big Data Technologies\n\nGoogle Cloud Platform (GCP)\nAmazon Web Services (AWS)\nMicrosoft Azure\nHadoop & Apache Spark"
+  },
+  {
+    "objectID": "Week13/index.html#databases-data-engineering",
+    "href": "Week13/index.html#databases-data-engineering",
+    "title": "Emerging trends and technologies in Statistics and Data Science",
+    "section": "Databases & Data Engineering",
+    "text": "Databases & Data Engineering\n\nSQL Databases – PostgreSQL, MySQL, SQLite\nNoSQL Databases – MongoDB, Cassandra\nData Warehouses – Snowflake, BigQuery, Redshift."
+  },
+  {
+    "objectID": "Week13/index.html#pre-trained-classification-models",
+    "href": "Week13/index.html#pre-trained-classification-models",
+    "title": "Emerging trends and technologies in Statistics and Data Science",
+    "section": "Pre-trained Classification Models",
+    "text": "Pre-trained Classification Models\n\nVGG 16\nYOLO (You Only Look Once)\nVision Transformer (ViT)\nPretrained Model Libraries\nTensorFlow Hub\nTorchvision Models"
+  },
+  {
+    "objectID": "Week13/index.html#section",
+    "href": "Week13/index.html#section",
+    "title": "Emerging trends and technologies in Statistics and Data Science",
     "section": "",
-    "text": "Code: CLT\n# Set parameters for the simulation\nset.seed(123)  # For reproducibility\nn &lt;- 1000      # Number of samples\nsample_size &lt;- c(5, 30, 100)  # Different sample sizes\nnum_simulations &lt;- 1000  # Number of simulations (trials)\n\n# Generate a non-normal distribution (e.g., Uniform)\npopulation_dist &lt;- runif(n * num_simulations, min = 0, max = 10)\n\n# Function to simulate and plot CLT demonstration\nplot_clt &lt;- function(sample_size, population_dist) {\n  means &lt;- numeric(num_simulations)\n  \n  for (i in 1:num_simulations) {\n    sample &lt;- sample(population_dist, sample_size, replace = TRUE)\n    means[i] &lt;- mean(sample)\n  }\n  \n  # Plot the distribution of sample means\n  hist(means, probability = TRUE, col = \"lightblue\", main = paste(\"Sample Size =\", sample_size),\n       xlab = \"Sample Means\", xlim = c(min(means), max(means)))\n  # Overlay a normal distribution with the same mean and sd as the sample means\n  curve(dnorm(x, mean = mean(means), sd = sd(means)), col = \"red\", lwd = 2, add = TRUE)\n}\n\n# Plot the distributions of sample means for different sample sizes\npar(mfrow = c(1, 3))  # Arrange plots side by side\nfor (size in sample_size) {\n  plot_clt(size, population_dist)\n}\n\n# Reset plotting layout\npar(mfrow = c(1, 1))\n````"
+    "text": "Explainable AI (XAI) and Interpretable Machine Learning\nFederated Learning and Privacy-Preserving Analytics\nDeep Generative Models (DGMs)\nReal-Time and Streaming Data Analytics\nAutomated Machine Learning\nCausal Inference & Uplift Modeling"
   },
   {
     "objectID": "index.html",
@@ -186,7 +305,21 @@
     "href": "index.html#lecture-13-21-february-2025",
     "title": "STA 315 2.0 Essential Skills in Statistics",
     "section": "Lecture 13: 21 February 2025",
-    "text": "Lecture 13: 21 February 2025"
+    "text": "Lecture 13: 21 February 2025\nEmerging trends and technologies in Statistics and Data Science"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "STA 315 2.0 Essential Skills in Statistics",
+    "section": "",
+    "text": "Code: CLT\n# Set parameters for the simulation\nset.seed(123)  # For reproducibility\nn &lt;- 1000      # Number of samples\nsample_size &lt;- c(5, 30, 100)  # Different sample sizes\nnum_simulations &lt;- 1000  # Number of simulations (trials)\n\n# Generate a non-normal distribution (e.g., Uniform)\npopulation_dist &lt;- runif(n * num_simulations, min = 0, max = 10)\n\n# Function to simulate and plot CLT demonstration\nplot_clt &lt;- function(sample_size, population_dist) {\n  means &lt;- numeric(num_simulations)\n  \n  for (i in 1:num_simulations) {\n    sample &lt;- sample(population_dist, sample_size, replace = TRUE)\n    means[i] &lt;- mean(sample)\n  }\n  \n  # Plot the distribution of sample means\n  hist(means, probability = TRUE, col = \"lightblue\", main = paste(\"Sample Size =\", sample_size),\n       xlab = \"Sample Means\", xlim = c(min(means), max(means)))\n  # Overlay a normal distribution with the same mean and sd as the sample means\n  curve(dnorm(x, mean = mean(means), sd = sd(means)), col = \"red\", lwd = 2, add = TRUE)\n}\n\n# Plot the distributions of sample means for different sample sizes\npar(mfrow = c(1, 3))  # Arrange plots side by side\nfor (size in sample_size) {\n  plot_clt(size, population_dist)\n}\n\n# Reset plotting layout\npar(mfrow = c(1, 1))\n````"
+  },
+  {
+    "objectID": "Week10/index.html",
+    "href": "Week10/index.html",
+    "title": "Question 1",
+    "section": "",
+    "text": "Question 1\n\nName the three basic principles in experimental design.\nWhy is replication important in experimental design?\nWhat is the main purpose for using randomization in an experiment?\n\nWater flow velocities have been suspected to affect the growth of fish species like California halibut (Paralichthys californicus). The California halibut (Paralichthys californicus) is an economically important flatfish species of Southern California in the USA. A study was carried out to test the effect of three relative water velocities of 0.5, 1.0, and 1.5 on the gain of bodyweight of California halibut over a period of 10 weeks. Nine rectangular tanks filled with fifteen (15) California halibut fish each were given to set the velocities to be tested. All the fish were of the same age, same weight, and same health status. Furthermore, all fish were fed the same food. All experimental tanks are the same in length, width, and depth. All tanks receive the same environmental conditions. Three experimental tanks were randomly assigned to each velocity. The experiment was fully randomized. After 10 weeks, the body weight of each fish was measured. Each fish was individually weighted and immediately returned to its respective experimental tank. \n\nWrite the following with reference to this experiment.\n\nExperimental unit\nObservation unit\nFactor/ Factors tested\nFactor levels\nTreatments tested\nResponse variable\nHow many replicates are there for each treatment?\n\nIf you do this experiment, how would you employ randomization?\nWrite the most suitable statistical model for the experiment. Define all terms in it and state any assumptions you make regarding the model.\n\n\n\nQuestion 2\nAn experiment was performed to determine the effect of four different chemicals on the strength of a fabric. These chemicals are used as part of the design printing process. Five different fabric samples were selected. The experiment was carried out by testing each chemical type on each fabric sample once in a random order. The data is shown in the table below.\nThese data were given to two students separately and asked to construct the ANOVA table to analyze. The results obtained by them are given below. Some values were missing in each ANOVA table and marked with a blank space (…).\n\nComplete each ANOVA table below (Copy the tables below in your answer script and complete it.)\n\nResults of the first student\n\n\n\n\n\nSource\nDF\nSS\nMS\nF\nP\n\n\n\n\nChemical type\n…\n…\n…\n…\n0.000\n\n\nError\n…\n219.6\n…\n\n\n\n\nTotal\n…\n623\n\n\n\n\n\n\n\n\nResults of the second student\n\n\n\n\n\nSource\nDF\nSS\nMS\nF\nP\n\n\n\n\nChemical type\n…\n…\n…\n…\n0.000\n\n\nFabric sample\n…\n124.2\n…\n…\n0.029\n\n\nError\n…\n95.4\n…\n\n\n\n\nTotal\n…\n623\n\n\n\n\n\n\n\n\n\nState the differences between the two approaches the two students had applied.\nOne student has obtained the following graph. Comment on it.\n\n\n\n\n\n\n\n\n\n\n\nWhat is the best approach (first student approach or second student approach)? Justify your answer.\nWrite the effect model for the selected approach in part (iv) and define all the terms of it.\nWrite the hypothesis of the selected model to test the equality of treatment means and state your decision and conclusion. (No need to do multiple comparisons.)\n\n\n\nQuestion 3\nTwenty four (24) pieces of metal pipes were chosen for an experiment to examine if the quantity of corrosion is affected by the coating type or the soil type. The experiment uses two different coating types and three different soil types. Each metal item is coated with one of the two coatings and buried for a specific amount of time in one of the three types of soil, after which the quantity of corrosion is calculated. The data obtained is presented in the table below.\n\nHow many treatment combinations are tested in this experiment? What are they?\nThe mean plot of the above data is given below. Comment on it.\n\n\n\n\n\n\n\n\n\n\n\nWrite a suitable effect model for the experiment and state the hypotheses to be tested.\nANOVA table for the above experiment is given below. State your conclusions. Assume that the assumptions of the model are not violated.\n\n\n\nAnalysis of Variance Table\n\nResponse: corrosion_amount\n                       Df  Sum Sq Mean Sq F value   Pr(&gt;F)   \nsoil_type               2  95.583  47.792  5.4532 0.014076 * \ncoating_type            1 100.042 100.042 11.4152 0.003346 **\nsoil_type:coating_type  2  67.583  33.792  3.8558 0.040392 * \nResiduals              18 157.750   8.764                    \n---\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n\n\n\nFor further investigation, the Tukey multiple comparison tests were performed. The results are given below. Comment on the results and what should you recommend to reduce the amount of corrosion (give reasons for your answer)?\n\n\n\n  Tukey multiple comparisons of means\n    95% family-wise confidence level\n\nFit: aov(formula = corrosion_amount ~ soil_type * coating_type, data = q3)\n\n$soil_type\n      diff        lwr      upr     p adj\n2-1  4.750  0.9723052 8.527695 0.0128436\n3-1  3.375 -0.4026948 7.152695 0.0846412\n3-2 -1.375 -5.1526948 2.402695 0.6295541\n\n$coating_type\n        diff      lwr     upr     p adj\n2-1 4.083333 1.544216 6.62245 0.0033461\n\n$`soil_type:coating_type`\n         diff         lwr       upr     p adj\n2:1-1:1  4.00  -2.6526105 10.652611 0.4272548\n3:1-1:1 -0.50  -7.1526105  6.152611 0.9998730\n1:2-1:1  1.00  -5.6526105  7.652611 0.9963915\n2:2-1:1  6.50  -0.1526105 13.152611 0.0577047\n3:2-1:1  8.25   1.5973895 14.902611 0.0104439\n3:1-2:1 -4.50 -11.1526105  2.152611 0.3071941\n1:2-2:1 -3.00  -9.6526105  3.652611 0.7076774\n2:2-2:1  2.50  -4.1526105  9.152611 0.8338901\n3:2-2:1  4.25  -2.4026105 10.902611 0.3643703\n1:2-3:1  1.50  -5.1526105  8.152611 0.9773677\n2:2-3:1  7.00   0.3473895 13.652611 0.0358934\n3:2-3:1  8.75   2.0973895 15.402611 0.0063084\n2:2-1:2  5.50  -1.1526105 12.152611 0.1409369\n3:2-1:2  7.25   0.5973895 13.902611 0.0281668\n3:2-2:2  1.75  -4.9026105  8.402611 0.9566132\n\n\n\n\nQuestion 4\nA materials science engineer is investigating the effects of four different catalysts (A, B, C, and D) on the reaction time of a chemical process. Each batch of new material is only large enough to permit four runs to be made. Furthermore, four lab assistants were selected for the study. To account for the source of variability due to batch and lab assistant, the engineer uses the Latin square design shown below.\n\nIs this a standard Latin square design? Give reasons for your answer.\n\nCont. page 6\n\n\nANOVA table for the above experiment is given below. Write the model corresponding to the ANOVA. Define all terms in it. State any assumptions you make regarding the model.\n\n\n\nAnalysis of Variance Table\n\nResponse: Time\n              Df  Sum Sq Mean Sq F value    Pr(&gt;F)    \nBatch          3 143.187  47.729 27.6024 0.0006573 ***\nLab_assistant  3  12.188   4.063  2.3494 0.1717719    \nCatalyst       3  72.188  24.063 13.9157 0.0041308 ** \nResiduals      6  10.375   1.729                      \n---\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n\n\n\nBriefly explain how you check the validity of the model assumptions.\nAssume that the estimated model in part (ii) satisfied all of the assumptions made regarding the error term. What conclusions can be drawn from the results of ANOVA table. You should clearly write the corresponding hypotheses, decision and conclusions.\nWrite one advantage and one disadvantage of a Latin square design."
   },
   {
     "objectID": "Week2/index.html#references",
@@ -600,243 +733,5 @@
     "title": "Hypothesis Testing",
     "section": "Question 6",
     "text": "Question 6\nA dietician hopes to reduce a person’s cholesterol level by using a special diet supplemented with a combination of vitamin pills. Twenty (20) subjects were pre-tested and then placed on diet for two weeks. Their cholesterol levels were checked after the two week period. The results are shown below. Cholesterol levels are measured in milligrams per decilitre.\nbefore: 210, 235, 208, 190, 172, 244, 211, 235, 210, 190, 175, 250, 200, 270, 222, 203, 209, 220, 250, 280)\nafter: 190, 170, 210, 188, 173, 195, 228, 200, 210, 184, 196, 208, 211, 212, 205, 221, 240, 250, 230, 220\nTest the claim that the Cholesterol level before the special diet is greater than the Cholesterol level after the special diet at α = 0.01 level of significance."
-  },
-  {
-    "objectID": "Week13/index.html#programming-languages",
-    "href": "Week13/index.html#programming-languages",
-    "title": "Emerging trends and technologies in Statistics/Data Science",
-    "section": "Programming Languages",
-    "text": "Programming Languages\n\n\nPython\nR\nJulia"
-  },
-  {
-    "objectID": "Week13/index.html#python",
-    "href": "Week13/index.html#python",
-    "title": "Emerging trends and technologies in statistics",
-    "section": "1. Python",
-    "text": "1. Python"
-  },
-  {
-    "objectID": "Week13/index.html#r",
-    "href": "Week13/index.html#r",
-    "title": "Emerging trends and technologies in statistics",
-    "section": "2. R",
-    "text": "2. R"
-  },
-  {
-    "objectID": "Week13/index.html#sql",
-    "href": "Week13/index.html#sql",
-    "title": "Emerging trends and technologies in statistics",
-    "section": "3. SQL",
-    "text": "3. SQL"
-  },
-  {
-    "objectID": "Week13/index.html#julia",
-    "href": "Week13/index.html#julia",
-    "title": "Emerging trends and technologies in statistics",
-    "section": "4. Julia",
-    "text": "4. Julia"
-  },
-  {
-    "objectID": "Week13/index.html#python-ides-for-data-science",
-    "href": "Week13/index.html#python-ides-for-data-science",
-    "title": "Emerging trends and technologies in Statistics/Data Science",
-    "section": "Python IDEs for Data Science",
-    "text": "Python IDEs for Data Science\n\n\nJupyter Notebook\nVS Code\nPyCharm\nGoogle Colab"
-  },
-  {
-    "objectID": "Week13/index.html#python-data-wrangling-libraries",
-    "href": "Week13/index.html#python-data-wrangling-libraries",
-    "title": "Emerging trends and technologies in Statistics/Data Science",
-    "section": "Python Data Wrangling Libraries",
-    "text": "Python Data Wrangling Libraries\n\npandas\nnumpy\npolars\ndask\npyjanitor"
-  },
-  {
-    "objectID": "Week13/index.html#data-visualization-libraries",
-    "href": "Week13/index.html#data-visualization-libraries",
-    "title": "Emerging trends and technologies in Statistics/Data Science",
-    "section": "Data Visualization Libraries",
-    "text": "Data Visualization Libraries\n\nmatplotlib\nseaborn\nplotly\naltair\nfolium\nplotnine"
-  },
-  {
-    "objectID": "Week13/index.html#machine-learning-libraries",
-    "href": "Week13/index.html#machine-learning-libraries",
-    "title": "Emerging trends and technologies in Statistics/Data Science",
-    "section": "Machine Learning Libraries",
-    "text": "Machine Learning Libraries\n\nscikit-learn\nXGBoost / LightGBM\nTensorFlow / Keras\nPyTorch\nCatBoost"
-  },
-  {
-    "objectID": "Week13/index.html#statistics-libraries",
-    "href": "Week13/index.html#statistics-libraries",
-    "title": "Emerging trends and technologies in Statistics/Data Science",
-    "section": "Statistics Libraries",
-    "text": "Statistics Libraries\n\nscipy.stats\nstatsmodels\nsympy"
-  },
-  {
-    "objectID": "Week13/index.html#python-web-development-frameworks",
-    "href": "Week13/index.html#python-web-development-frameworks",
-    "title": "Emerging trends and technologies in statistics",
-    "section": "Python Web Development Frameworks",
-    "text": "Python Web Development Frameworks\n\ndjango\nFlask/ FastAPI"
-  },
-  {
-    "objectID": "Week13/index.html#essential-r-libraries-for-data-science",
-    "href": "Week13/index.html#essential-r-libraries-for-data-science",
-    "title": "Emerging trends and technologies in statistics",
-    "section": "Essential R Libraries for Data Science",
-    "text": "Essential R Libraries for Data Science\n\ntidyverse\ntidyverts"
-  },
-  {
-    "objectID": "Week13/index.html#essential-r-libraries",
-    "href": "Week13/index.html#essential-r-libraries",
-    "title": "Emerging trends and technologies in Statistics/Data Science",
-    "section": "Essential R Libraries",
-    "text": "Essential R Libraries\n\ntidyverse\njanitor\nlubridate\ndata.table"
-  },
-  {
-    "objectID": "Week13/index.html#data-visualization",
-    "href": "Week13/index.html#data-visualization",
-    "title": "Emerging trends and technologies in Statistics/Data Science",
-    "section": "Data Visualization",
-    "text": "Data Visualization\n\nggplot2\npatchwork\nggthemes\nplotly\nleaflet\nggridges"
-  },
-  {
-    "objectID": "Week13/index.html#machine-learning-and-modelling",
-    "href": "Week13/index.html#machine-learning-and-modelling",
-    "title": "Emerging trends and technologies in Statistics/Data Science",
-    "section": "Machine Learning and Modelling",
-    "text": "Machine Learning and Modelling\n\ncaret\ntidymodels\nrandomForest\nxgboost\nlightgbm\nglmnet\nrpart\nkeras"
-  },
-  {
-    "objectID": "Week13/index.html#time-series-analysis-forecasting",
-    "href": "Week13/index.html#time-series-analysis-forecasting",
-    "title": "Emerging trends and technologies in Statistics/Data Science",
-    "section": "Time Series Analysis & Forecasting",
-    "text": "Time Series Analysis & Forecasting\n\ntsibble\nfable\nprophet\ntimetk"
-  },
-  {
-    "objectID": "Week13/index.html#text-mining-natural-language-processing-nlp",
-    "href": "Week13/index.html#text-mining-natural-language-processing-nlp",
-    "title": "Emerging trends and technologies in Statistics/Data Science",
-    "section": "Text Mining & Natural Language Processing (NLP)",
-    "text": "Text Mining & Natural Language Processing (NLP)\n\ntm\ntidytext\nquanteda\nudpipe\ntextrecipes"
-  },
-  {
-    "objectID": "Week13/index.html#web-scrapping-and-apis-in-r",
-    "href": "Week13/index.html#web-scrapping-and-apis-in-r",
-    "title": "Emerging trends and technologies in Statistics/Data Science",
-    "section": "Web scrapping and APIs in R",
-    "text": "Web scrapping and APIs in R\n\nrvest\nhttr\njsonlite"
-  },
-  {
-    "objectID": "Week13/index.html#reproducible-reporting-dashboards-in-r.",
-    "href": "Week13/index.html#reproducible-reporting-dashboards-in-r.",
-    "title": "Emerging trends and technologies in Statistics/Data Science",
-    "section": "Reproducible Reporting & Dashboards in R.",
-    "text": "Reproducible Reporting & Dashboards in R.\n\nQuarto\nrmarkdown\nknitr\nflexdashboard\nshiny\ngt"
-  },
-  {
-    "objectID": "Week13/index.html#spatial-data-analysis-in-r",
-    "href": "Week13/index.html#spatial-data-analysis-in-r",
-    "title": "Emerging trends and technologies in Statistics/Data Science",
-    "section": "Spatial Data Analysis in R",
-    "text": "Spatial Data Analysis in R\n\nsf\nsp\nraster\ntmap\nterra"
-  },
-  {
-    "objectID": "Week13/index.html#python-web-development-frameworks-mlops-model-deployment",
-    "href": "Week13/index.html#python-web-development-frameworks-mlops-model-deployment",
-    "title": "Emerging trends and technologies in Statistics/Data Science",
-    "section": "Python Web Development Frameworks/ MLOps & Model Deployment",
-    "text": "Python Web Development Frameworks/ MLOps & Model Deployment\n\ndjango\nFlask/ FastAPI\nDocker\nKubernetes"
-  },
-  {
-    "objectID": "Week13/index.html#cloud-computing-big-data-technologies",
-    "href": "Week13/index.html#cloud-computing-big-data-technologies",
-    "title": "Emerging trends and technologies in Statistics/Data Science",
-    "section": "Cloud Computing & Big Data Technologies",
-    "text": "Cloud Computing & Big Data Technologies\n\nGoogle Cloud Platform (GCP)\nAmazon Web Services (AWS)\nMicrosoft Azure\nHadoop & Apache Spark"
-  },
-  {
-    "objectID": "Week13/index.html#databases-data-engineering",
-    "href": "Week13/index.html#databases-data-engineering",
-    "title": "Emerging trends and technologies in Statistics/Data Science",
-    "section": "Databases & Data Engineering",
-    "text": "Databases & Data Engineering\n\nSQL Databases – PostgreSQL, MySQL, SQLite\nNoSQL Databases – MongoDB, Cassandra\nData Warehouses – Snowflake, BigQuery, Redshift."
-  },
-  {
-    "objectID": "Week13/index.html#pre-trained-classification-models",
-    "href": "Week13/index.html#pre-trained-classification-models",
-    "title": "Emerging trends and technologies in Statistics/Data Science",
-    "section": "Pre-trained Classification Models",
-    "text": "Pre-trained Classification Models\n\nVGG 16\nYOLO (You Only Look Once)\nTensorFlow Hub\nTorchvision Models (PyTorch)\nVision Transformer (ViT)"
-  },
-  {
-    "objectID": "Week13/index.html#section",
-    "href": "Week13/index.html#section",
-    "title": "Emerging trends and technologies in Statistics/Data Science",
-    "section": "",
-    "text": "Explainable AI (XAI) and Interpretable Machine Learning\nFederated Learning and Privacy-Preserving Analytics\nDeep Generative Models (DGMs)\nReal-Time and Streaming Data Analytics\nAutomated Machine Learning\nCausal Inference & Uplift Modeling"
-  },
-  {
-    "objectID": "Week13/index.html#python-ides",
-    "href": "Week13/index.html#python-ides",
-    "title": "Emerging trends and technologies in Statistics/Data Science",
-    "section": "Python IDEs",
-    "text": "Python IDEs\n\n\nJupyter Notebook\nVS Code\nPyCharm\nGoogle Colab"
-  },
-  {
-    "objectID": "Week13/index.html#python-data-visualization-libraries",
-    "href": "Week13/index.html#python-data-visualization-libraries",
-    "title": "Emerging trends and technologies in Statistics/Data Science",
-    "section": "Python Data Visualization Libraries",
-    "text": "Python Data Visualization Libraries\n\nmatplotlib\nseaborn\nplotly\naltair\nfolium\nplotnine"
-  },
-  {
-    "objectID": "Week13/index.html#python-statistics-libraries",
-    "href": "Week13/index.html#python-statistics-libraries",
-    "title": "Emerging trends and technologies in Statistics/Data Science",
-    "section": "Python Statistics Libraries",
-    "text": "Python Statistics Libraries\n\nscipy.stats\nstatsmodels\nsympy"
-  },
-  {
-    "objectID": "Week13/index.html#python-machine-learning-libraries",
-    "href": "Week13/index.html#python-machine-learning-libraries",
-    "title": "Emerging trends and technologies in Statistics/Data Science",
-    "section": "Python Machine Learning Libraries",
-    "text": "Python Machine Learning Libraries\n\nscikit-learn\nXGBoost / LightGBM\nTensorFlow / Keras\nPyTorch\nCatBoost"
-  },
-  {
-    "objectID": "Week13/index.html#python-web-development-frameworks-and-model-deployment",
-    "href": "Week13/index.html#python-web-development-frameworks-and-model-deployment",
-    "title": "Emerging trends and technologies in Statistics/Data Science",
-    "section": "Python Web Development Frameworks and Model Deployment",
-    "text": "Python Web Development Frameworks and Model Deployment\n\ndjango\nFlask/ FastAPI\nDocker\nKubernetes"
-  },
-  {
-    "objectID": "Week13/index.html#r-data-visualization-packages",
-    "href": "Week13/index.html#r-data-visualization-packages",
-    "title": "Emerging trends and technologies in Statistics/Data Science",
-    "section": "R Data Visualization Packages",
-    "text": "R Data Visualization Packages\n\nggplot2\npatchwork\nggthemes\nplotly\nleaflet\nggridges"
-  },
-  {
-    "objectID": "Week13/index.html#r-machine-learning-and-modelling-packages",
-    "href": "Week13/index.html#r-machine-learning-and-modelling-packages",
-    "title": "Emerging trends and technologies in Statistics/Data Science",
-    "section": "R Machine Learning and Modelling packages",
-    "text": "R Machine Learning and Modelling packages\n\ncaret\ntidymodels\nrandomForest\nxgboost\nlightgbm\nglmnet\nrpart\nkeras"
-  },
-  {
-    "objectID": "Week13/index.html#r-time-series-analysis-forecasting-packages",
-    "href": "Week13/index.html#r-time-series-analysis-forecasting-packages",
-    "title": "Emerging trends and technologies in Statistics/Data Science",
-    "section": "R Time Series Analysis & Forecasting Packages",
-    "text": "R Time Series Analysis & Forecasting Packages\n\ntsibble\nfable\nprophet\ntimetk"
-  },
-  {
-    "objectID": "Week13/index.html#r-text-mining-natural-language-processing-nlp-packages",
-    "href": "Week13/index.html#r-text-mining-natural-language-processing-nlp-packages",
-    "title": "Emerging trends and technologies in Statistics/Data Science",
-    "section": "R Text Mining & Natural Language Processing (NLP) Packages",
-    "text": "R Text Mining & Natural Language Processing (NLP) Packages\n\ntm\ntidytext\nquanteda\nudpipe\ntextrecipes"
   }
 ]
