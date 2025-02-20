@@ -1,5 +1,5 @@
 ---
-title: "Emerging  technologies ad trends in statistics"
+title: "Emerging  trends and technologies in Statistics and Data Science"
 subtitle: ""
 author: "Dr. Thiyanga S. Talagala <br/>  Department of Statistics, Faculty of Applied Sciences <br/> University of Sri Jayewardenepura, Sri Lanka"
 format:
@@ -28,12 +28,11 @@ format:
 -   Python
 -   R
 -   Julia
--   SQL
 :::
 
 # Python
 
-## Python IDEs for Data Science
+## Python IDEs
 
 ::: incremental
 -   Jupyter Notebook
@@ -57,7 +56,7 @@ format:
 
 -   pyjanitor
 
-## Data Visualization Libraries
+## Python Data Visualization Libraries
 
 -   matplotlib
 
@@ -71,7 +70,7 @@ format:
 
 -   plotnine
 
-## Statistics Libraries
+## Python Statistics Libraries
 
 -   scipy.stats
 
@@ -79,7 +78,7 @@ format:
 
 -   sympy
 
-## Machine Learning Libraries
+## Python Machine Learning Libraries
 
 -   scikit-learn
 
@@ -91,15 +90,15 @@ format:
 
 -   CatBoost
 
-## Python Web Development Frameworks/ MLOps & Model Deployment
+## Python Web Development Frameworks and Model Deployment
 
 -   django
 
 -   Flask/ FastAPI
 
-- Docker 
+-   Docker
 
-- Kubernetes
+-   Kubernetes
 
 # R
 
@@ -113,7 +112,7 @@ format:
 
 -   data.table
 
-## Data Visualization
+## R Data Visualization Packages
 
 -   ggplot2
 
@@ -127,7 +126,7 @@ format:
 
 -   ggridges
 
-## Machine Learning and Modelling
+## R Machine Learning and Modelling packages
 
 -   caret
 
@@ -145,7 +144,7 @@ format:
 
 -   keras
 
-## Time Series Analysis & Forecasting
+## R Time Series Analysis & Forecasting Packages
 
 -   tsibble
 
@@ -155,7 +154,7 @@ format:
 
 -   timetk
 
-## Text Mining & Natural Language Processing (NLP)
+## R Text Mining & Natural Language Processing (NLP) Packages
 
 -   tm
 
@@ -196,57 +195,58 @@ format:
 
 -   terra
 
+- gstat
+
 # Good to know
 
 ## Cloud Computing & Big Data Technologies
 
-- Google Cloud Platform (GCP)
+-   Google Cloud Platform (GCP)
 
-- Amazon Web Services (AWS)
+-   Amazon Web Services (AWS)
 
-- Microsoft Azure
+-   Microsoft Azure
 
-- Hadoop & Apache Spark 
-
+-   Hadoop & Apache Spark
 
 ## Databases & Data Engineering
 
-- SQL Databases – PostgreSQL, MySQL, SQLite
+-   SQL Databases – PostgreSQL, MySQL, SQLite
 
-- NoSQL Databases – MongoDB, Cassandra
+-   NoSQL Databases – MongoDB, Cassandra
 
-- Data Warehouses – Snowflake, BigQuery, Redshift.
-
-
+-   Data Warehouses – Snowflake, BigQuery, Redshift.
 
 ## Pre-trained Classification Models
 
-- VGG 16
+-   VGG 16
 
-- YOLO (You Only Look Once) 
+-   YOLO (You Only Look Once)
+
+-   Vision Transformer (ViT)
+
+- ## Pretrained Model Libraries
 
 - TensorFlow Hub 
 
-- Torchvision Models (PyTorch)
-
-- Vision Transformer (ViT) 
+- Torchvision Models 
 
 # Trends
 
-##
+## 
 
-- Explainable AI (XAI) and Interpretable Machine Learning
+-   Explainable AI (XAI) and Interpretable Machine Learning
 
-- Federated Learning and Privacy-Preserving Analytics
+-   Federated Learning and Privacy-Preserving Analytics
 
-- Deep Generative Models (DGMs)
+-   Deep Generative Models (DGMs)
 
-- Real-Time and Streaming Data Analytics
+-   Real-Time and Streaming Data Analytics
 
-- Automated Machine Learning
+-   Automated Machine Learning
 
-- Causal Inference & Uplift Modeling
+-   Causal Inference & Uplift Modeling
 
-# The Future of Statistics & AI
+# The Future of Statistics, Data Science & AI
 
 These trends highlight a shift toward trustworthy, scalable, and responsible AI.

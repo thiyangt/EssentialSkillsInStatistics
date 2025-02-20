@@ -604,9 +604,9 @@
   {
     "objectID": "Week13/index.html#programming-languages",
     "href": "Week13/index.html#programming-languages",
-    "title": "Emerging technologies ad trends in statistics",
+    "title": "Emerging trends and technologies in Statistics/Data Science",
     "section": "Programming Languages",
-    "text": "Programming Languages\n\n\nPython\nR\nJulia\nSQL"
+    "text": "Programming Languages\n\n\nPython\nR\nJulia"
   },
   {
     "objectID": "Week13/index.html#python",
@@ -639,35 +639,35 @@
   {
     "objectID": "Week13/index.html#python-ides-for-data-science",
     "href": "Week13/index.html#python-ides-for-data-science",
-    "title": "Emerging technologies ad trends in statistics",
+    "title": "Emerging trends and technologies in Statistics/Data Science",
     "section": "Python IDEs for Data Science",
     "text": "Python IDEs for Data Science\n\n\nJupyter Notebook\nVS Code\nPyCharm\nGoogle Colab"
   },
   {
     "objectID": "Week13/index.html#python-data-wrangling-libraries",
     "href": "Week13/index.html#python-data-wrangling-libraries",
-    "title": "Emerging technologies ad trends in statistics",
+    "title": "Emerging trends and technologies in Statistics/Data Science",
     "section": "Python Data Wrangling Libraries",
     "text": "Python Data Wrangling Libraries\n\npandas\nnumpy\npolars\ndask\npyjanitor"
   },
   {
     "objectID": "Week13/index.html#data-visualization-libraries",
     "href": "Week13/index.html#data-visualization-libraries",
-    "title": "Emerging technologies ad trends in statistics",
+    "title": "Emerging trends and technologies in Statistics/Data Science",
     "section": "Data Visualization Libraries",
     "text": "Data Visualization Libraries\n\nmatplotlib\nseaborn\nplotly\naltair\nfolium\nplotnine"
   },
   {
     "objectID": "Week13/index.html#machine-learning-libraries",
     "href": "Week13/index.html#machine-learning-libraries",
-    "title": "Emerging technologies ad trends in statistics",
+    "title": "Emerging trends and technologies in Statistics/Data Science",
     "section": "Machine Learning Libraries",
     "text": "Machine Learning Libraries\n\nscikit-learn\nXGBoost / LightGBM\nTensorFlow / Keras\nPyTorch\nCatBoost"
   },
   {
     "objectID": "Week13/index.html#statistics-libraries",
     "href": "Week13/index.html#statistics-libraries",
-    "title": "Emerging technologies ad trends in statistics",
+    "title": "Emerging trends and technologies in Statistics/Data Science",
     "section": "Statistics Libraries",
     "text": "Statistics Libraries\n\nscipy.stats\nstatsmodels\nsympy"
   },
@@ -688,92 +688,155 @@
   {
     "objectID": "Week13/index.html#essential-r-libraries",
     "href": "Week13/index.html#essential-r-libraries",
-    "title": "Emerging technologies ad trends in statistics",
+    "title": "Emerging trends and technologies in Statistics/Data Science",
     "section": "Essential R Libraries",
     "text": "Essential R Libraries\n\ntidyverse\njanitor\nlubridate\ndata.table"
   },
   {
     "objectID": "Week13/index.html#data-visualization",
     "href": "Week13/index.html#data-visualization",
-    "title": "Emerging technologies ad trends in statistics",
+    "title": "Emerging trends and technologies in Statistics/Data Science",
     "section": "Data Visualization",
     "text": "Data Visualization\n\nggplot2\npatchwork\nggthemes\nplotly\nleaflet\nggridges"
   },
   {
     "objectID": "Week13/index.html#machine-learning-and-modelling",
     "href": "Week13/index.html#machine-learning-and-modelling",
-    "title": "Emerging technologies ad trends in statistics",
+    "title": "Emerging trends and technologies in Statistics/Data Science",
     "section": "Machine Learning and Modelling",
     "text": "Machine Learning and Modelling\n\ncaret\ntidymodels\nrandomForest\nxgboost\nlightgbm\nglmnet\nrpart\nkeras"
   },
   {
     "objectID": "Week13/index.html#time-series-analysis-forecasting",
     "href": "Week13/index.html#time-series-analysis-forecasting",
-    "title": "Emerging technologies ad trends in statistics",
+    "title": "Emerging trends and technologies in Statistics/Data Science",
     "section": "Time Series Analysis & Forecasting",
     "text": "Time Series Analysis & Forecasting\n\ntsibble\nfable\nprophet\ntimetk"
   },
   {
     "objectID": "Week13/index.html#text-mining-natural-language-processing-nlp",
     "href": "Week13/index.html#text-mining-natural-language-processing-nlp",
-    "title": "Emerging technologies ad trends in statistics",
+    "title": "Emerging trends and technologies in Statistics/Data Science",
     "section": "Text Mining & Natural Language Processing (NLP)",
     "text": "Text Mining & Natural Language Processing (NLP)\n\ntm\ntidytext\nquanteda\nudpipe\ntextrecipes"
   },
   {
     "objectID": "Week13/index.html#web-scrapping-and-apis-in-r",
     "href": "Week13/index.html#web-scrapping-and-apis-in-r",
-    "title": "Emerging technologies ad trends in statistics",
+    "title": "Emerging trends and technologies in Statistics/Data Science",
     "section": "Web scrapping and APIs in R",
     "text": "Web scrapping and APIs in R\n\nrvest\nhttr\njsonlite"
   },
   {
     "objectID": "Week13/index.html#reproducible-reporting-dashboards-in-r.",
     "href": "Week13/index.html#reproducible-reporting-dashboards-in-r.",
-    "title": "Emerging technologies ad trends in statistics",
+    "title": "Emerging trends and technologies in Statistics/Data Science",
     "section": "Reproducible Reporting & Dashboards in R.",
     "text": "Reproducible Reporting & Dashboards in R.\n\nQuarto\nrmarkdown\nknitr\nflexdashboard\nshiny\ngt"
   },
   {
     "objectID": "Week13/index.html#spatial-data-analysis-in-r",
     "href": "Week13/index.html#spatial-data-analysis-in-r",
-    "title": "Emerging technologies ad trends in statistics",
+    "title": "Emerging trends and technologies in Statistics/Data Science",
     "section": "Spatial Data Analysis in R",
     "text": "Spatial Data Analysis in R\n\nsf\nsp\nraster\ntmap\nterra"
   },
   {
     "objectID": "Week13/index.html#python-web-development-frameworks-mlops-model-deployment",
     "href": "Week13/index.html#python-web-development-frameworks-mlops-model-deployment",
-    "title": "Emerging technologies ad trends in statistics",
+    "title": "Emerging trends and technologies in Statistics/Data Science",
     "section": "Python Web Development Frameworks/ MLOps & Model Deployment",
     "text": "Python Web Development Frameworks/ MLOps & Model Deployment\n\ndjango\nFlask/ FastAPI\nDocker\nKubernetes"
   },
   {
     "objectID": "Week13/index.html#cloud-computing-big-data-technologies",
     "href": "Week13/index.html#cloud-computing-big-data-technologies",
-    "title": "Emerging technologies ad trends in statistics",
+    "title": "Emerging trends and technologies in Statistics/Data Science",
     "section": "Cloud Computing & Big Data Technologies",
     "text": "Cloud Computing & Big Data Technologies\n\nGoogle Cloud Platform (GCP)\nAmazon Web Services (AWS)\nMicrosoft Azure\nHadoop & Apache Spark"
   },
   {
     "objectID": "Week13/index.html#databases-data-engineering",
     "href": "Week13/index.html#databases-data-engineering",
-    "title": "Emerging technologies ad trends in statistics",
+    "title": "Emerging trends and technologies in Statistics/Data Science",
     "section": "Databases & Data Engineering",
     "text": "Databases & Data Engineering\n\nSQL Databases – PostgreSQL, MySQL, SQLite\nNoSQL Databases – MongoDB, Cassandra\nData Warehouses – Snowflake, BigQuery, Redshift."
   },
   {
     "objectID": "Week13/index.html#pre-trained-classification-models",
     "href": "Week13/index.html#pre-trained-classification-models",
-    "title": "Emerging technologies ad trends in statistics",
+    "title": "Emerging trends and technologies in Statistics/Data Science",
     "section": "Pre-trained Classification Models",
     "text": "Pre-trained Classification Models\n\nVGG 16\nYOLO (You Only Look Once)\nTensorFlow Hub\nTorchvision Models (PyTorch)\nVision Transformer (ViT)"
   },
   {
     "objectID": "Week13/index.html#section",
     "href": "Week13/index.html#section",
-    "title": "Emerging technologies ad trends in statistics",
+    "title": "Emerging trends and technologies in Statistics/Data Science",
     "section": "",
     "text": "Explainable AI (XAI) and Interpretable Machine Learning\nFederated Learning and Privacy-Preserving Analytics\nDeep Generative Models (DGMs)\nReal-Time and Streaming Data Analytics\nAutomated Machine Learning\nCausal Inference & Uplift Modeling"
+  },
+  {
+    "objectID": "Week13/index.html#python-ides",
+    "href": "Week13/index.html#python-ides",
+    "title": "Emerging trends and technologies in Statistics/Data Science",
+    "section": "Python IDEs",
+    "text": "Python IDEs\n\n\nJupyter Notebook\nVS Code\nPyCharm\nGoogle Colab"
+  },
+  {
+    "objectID": "Week13/index.html#python-data-visualization-libraries",
+    "href": "Week13/index.html#python-data-visualization-libraries",
+    "title": "Emerging trends and technologies in Statistics/Data Science",
+    "section": "Python Data Visualization Libraries",
+    "text": "Python Data Visualization Libraries\n\nmatplotlib\nseaborn\nplotly\naltair\nfolium\nplotnine"
+  },
+  {
+    "objectID": "Week13/index.html#python-statistics-libraries",
+    "href": "Week13/index.html#python-statistics-libraries",
+    "title": "Emerging trends and technologies in Statistics/Data Science",
+    "section": "Python Statistics Libraries",
+    "text": "Python Statistics Libraries\n\nscipy.stats\nstatsmodels\nsympy"
+  },
+  {
+    "objectID": "Week13/index.html#python-machine-learning-libraries",
+    "href": "Week13/index.html#python-machine-learning-libraries",
+    "title": "Emerging trends and technologies in Statistics/Data Science",
+    "section": "Python Machine Learning Libraries",
+    "text": "Python Machine Learning Libraries\n\nscikit-learn\nXGBoost / LightGBM\nTensorFlow / Keras\nPyTorch\nCatBoost"
+  },
+  {
+    "objectID": "Week13/index.html#python-web-development-frameworks-and-model-deployment",
+    "href": "Week13/index.html#python-web-development-frameworks-and-model-deployment",
+    "title": "Emerging trends and technologies in Statistics/Data Science",
+    "section": "Python Web Development Frameworks and Model Deployment",
+    "text": "Python Web Development Frameworks and Model Deployment\n\ndjango\nFlask/ FastAPI\nDocker\nKubernetes"
+  },
+  {
+    "objectID": "Week13/index.html#r-data-visualization-packages",
+    "href": "Week13/index.html#r-data-visualization-packages",
+    "title": "Emerging trends and technologies in Statistics/Data Science",
+    "section": "R Data Visualization Packages",
+    "text": "R Data Visualization Packages\n\nggplot2\npatchwork\nggthemes\nplotly\nleaflet\nggridges"
+  },
+  {
+    "objectID": "Week13/index.html#r-machine-learning-and-modelling-packages",
+    "href": "Week13/index.html#r-machine-learning-and-modelling-packages",
+    "title": "Emerging trends and technologies in Statistics/Data Science",
+    "section": "R Machine Learning and Modelling packages",
+    "text": "R Machine Learning and Modelling packages\n\ncaret\ntidymodels\nrandomForest\nxgboost\nlightgbm\nglmnet\nrpart\nkeras"
+  },
+  {
+    "objectID": "Week13/index.html#r-time-series-analysis-forecasting-packages",
+    "href": "Week13/index.html#r-time-series-analysis-forecasting-packages",
+    "title": "Emerging trends and technologies in Statistics/Data Science",
+    "section": "R Time Series Analysis & Forecasting Packages",
+    "text": "R Time Series Analysis & Forecasting Packages\n\ntsibble\nfable\nprophet\ntimetk"
+  },
+  {
+    "objectID": "Week13/index.html#r-text-mining-natural-language-processing-nlp-packages",
+    "href": "Week13/index.html#r-text-mining-natural-language-processing-nlp-packages",
+    "title": "Emerging trends and technologies in Statistics/Data Science",
+    "section": "R Text Mining & Natural Language Processing (NLP) Packages",
+    "text": "R Text Mining & Natural Language Processing (NLP) Packages\n\ntm\ntidytext\nquanteda\nudpipe\ntextrecipes"
   }
 ]
