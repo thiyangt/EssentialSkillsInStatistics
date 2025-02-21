@@ -72,4 +72,6 @@ Kaggle Class Competition
 
 ## Lecture 13: 21 February 2025
 
-[Emerging  trends and technologies in Statistics and Data Science](/Week13/index.html)
+[Emerging trends and technologies in Statistics and Data Science](/Week13/index.html)
+
+[Video](https://youtu.be/WGF1mQDKQUY?feature=shared)

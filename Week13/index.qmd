@@ -195,7 +195,7 @@ format:
 
 -   terra
 
-- gstat
+-   gstat
 
 # Good to know
 
@@ -225,11 +225,13 @@ format:
 
 -   Vision Transformer (ViT)
 
-- ## Pretrained Model Libraries
+-   
 
-- TensorFlow Hub 
+    ## Pretrained Model Libraries
 
-- Torchvision Models 
+-   TensorFlow Hub
+
+-   Torchvision Models
 
 # Trends
 
