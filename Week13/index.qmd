@@ -1,5 +1,5 @@
 ---
-title: "Emerging  trends and technologies in Statistics and Data Science"
+title: "Emerging  Trends and Technologies in Statistics and Data Science"
 subtitle: ""
 author: "Dr. Thiyanga S. Talagala <br/>  Department of Statistics, Faculty of Applied Sciences <br/> University of Sri Jayewardenepura, Sri Lanka"
 format:
